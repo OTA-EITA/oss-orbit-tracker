@@ -1,0 +1,114 @@
+name: Daily OSS Trend Update
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 毎日午前9時 JST (UTC 0:00)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  collect-trends:
+    runs-on: ubuntu-latest
+    name: Collect GitHub OSS Trends
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run trend tracker
+        env:
+          GH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        run: |
+          python src/main.py
+
+      - name: Configure Git user
+        run: |
+          git config --local user.name "oss-tracker-bot"
+          git config --local user.email "bot@ossorbit.dev"
+
+      - name: Get current date
+        id: date
+        run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+
+      - name: Commit trend data
+        run: |
+          DATE=$(date +'%Y-%m-%d')
+          git add data/ README.md
+          git commit -m "chore: daily trend update ${DATE}" || echo "No changes to commit"
+          
+          git fetch origin master
+          git pull --rebase origin master || {
+            echo "Rebase failed, using merge..."
+            git rebase --abort || true
+            git pull origin master
+          }
+          
+          git push origin HEAD:master
+
+      - name: Create daily report issue
+        if: github.event.schedule == '0 0 * * *'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const date = '${{ steps.date.outputs.date }}';
+            const dataPath = `data/${date}.json`;
+            
+            let issueBody = `## 本日のOSSトレンドレポート ${date}\n\n`;
+            
+            try {
+              if (fs.existsSync(dataPath)) {
+                const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+                issueBody += `### 📊 収集データ\n`;
+                issueBody += `- トレンドリポジトリ数: ${data.trending?.length || 0}\n`;
+                issueBody += `- 更新時刻: ${data.collected_at || 'N/A'}\n\n`;
+                
+                if (data.trending && data.trending.length > 0) {
+                  issueBody += `### 🌟 トップ5リポジトリ\n`;
+                  data.trending.slice(0, 5).forEach((repo, idx) => {
+                    issueBody += `${idx + 1}. **${repo.name}** ⭐ ${repo.stars}\n`;
+                  });
+                }
+              } else {
+                issueBody += `データファイルが見つかりませんでした。\n`;
+              }
+            } catch (error) {
+              issueBody += `⚠️ データ読み込みエラー: ${error.message}\n`;
+            }
+            
+            issueBody += `\n---\n*自動生成レポート by GitHub Actions*`;
+            
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `[Daily Report] OSS Trends ${date}`,
+              body: issueBody,
+              labels: ['daily-report', 'automated']
+            });
+
+      - name: Upload trend data
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: trend-data-${{ steps.date.outputs.date }}
+          path: data/
+          retention-days: 30
