@@ -1,0 +1,100 @@
+name: Code Quality Check
+
+on:
+  pull_request:
+    paths:
+      - 'src/**'
+      - 'tests/**'
+      - '.github/workflows/quality-check.yml'
+  push:
+    branches:
+      - master
+    paths:
+      - 'src/**'
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    name: Python Code Quality
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install ruff mypy bandit safety
+
+      - name: Run Ruff linting
+        id: ruff
+        continue-on-error: true
+        run: |
+          ruff check src/ > ruff-report.txt 2>&1 || true
+          echo "issues=$(wc -l < ruff-report.txt)" >> $GITHUB_OUTPUT
+
+      - name: Run type checking
+        id: mypy
+        continue-on-error: true
+        run: |
+          mypy src/ > mypy-report.txt 2>&1 || true
+          echo "issues=$(grep -c "error:" mypy-report.txt || echo 0)" >> $GITHUB_OUTPUT
+
+      - name: Run Bandit security scan
+        id: bandit
+        continue-on-error: true
+        run: |
+          bandit -r src/ -f json -o bandit-report.json || true
+          echo "issues=$(jq '.results | length' bandit-report.json 2>/dev/null || echo 0)" >> $GITHUB_OUTPUT
+
+      - name: Comment PR with quality results
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const ruff = '${{ steps.ruff.outputs.issues }}' || '0';
+            const mypy = '${{ steps.mypy.outputs.issues }}' || '0';
+            const bandit = '${{ steps.bandit.outputs.issues }}' || '0';
+            
+            const comment = `## 🔍 Code Quality Report
+            
+            | Tool | Issues Found |
+            |------|--------------|
+            | Ruff (Linting) | ${ruff} |
+            | MyPy (Type Check) | ${mypy} |
+            | Bandit (Security) | ${bandit} |
+            
+            Check the workflow logs for detailed reports.
+            
+            ---
+            *Automated Quality Check*`;
+            
+            github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: comment
+            });
+
+      - name: Upload quality reports
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: quality-reports-${{ github.sha }}
+          path: |
+            ruff-report.txt
+            mypy-report.txt
+            bandit-report.json
+          if-no-files-found: ignore
+          retention-days: 7
