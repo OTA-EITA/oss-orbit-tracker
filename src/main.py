@@ -12,6 +12,7 @@ from pathlib import Path
 from typing import Optional
 
 from github_client import GitHubClient
+from hn_client import HackerNewsClient
 from analyzer import TrendAnalyzer
 from renderer import TrendRenderer
 
@@ -37,7 +38,7 @@ def main() -> int:
     
     # Initialize components
     try:
-        client = GitHubClient()
+        github_client = GitHubClient()
         logger.info("✅ GitHub client initialized")
     except ValueError as e:
         logger.error(f"❌ Failed to initialize GitHub client: {e}")
@@ -47,15 +48,23 @@ def main() -> int:
         logger.error(f"❌ Unexpected error during initialization: {e}")
         return 1
     
+    # Initialize HackerNews client
+    try:
+        hn_client = HackerNewsClient()
+        logger.info("✅ HackerNews client initialized")
+    except Exception as e:
+        logger.warning(f"⚠️  HackerNews client initialization failed: {e}")
+        hn_client = None
+    
     analyzer = TrendAnalyzer()
     renderer = TrendRenderer()
     
     # Check rate limit
     try:
-        rate_limit = client.check_rate_limit()
+        rate_limit = github_client.check_rate_limit()
         remaining = rate_limit['rate']['remaining']
         total = rate_limit['rate']['limit']
-        logger.info(f"📊 API Rate Limit: {remaining}/{total} requests remaining")
+        logger.info(f"📊 GitHub API Rate Limit: {remaining}/{total} requests remaining")
         
         if remaining < 10:
             logger.warning("⚠️  Warning: Low rate limit remaining")
@@ -64,10 +73,10 @@ def main() -> int:
         logger.warning(f"⚠️  Could not check rate limit: {e}")
         logger.warning("Proceeding anyway...")
     
-    # Fetch trending repositories
-    logger.info("📡 Fetching trending repositories...")
+    # Fetch trending repositories from GitHub
+    logger.info("📡 Fetching trending GitHub repositories...")
     try:
-        raw_repos = client.get_trending_repositories(limit=100)
+        raw_repos = github_client.get_trending_repositories(limit=100)
         logger.info(f"✅ Fetched {len(raw_repos)} repositories")
     except Exception as e:
         logger.error(f"❌ Error fetching repositories: {e}")
@@ -78,8 +87,8 @@ def main() -> int:
         logger.error("❌ No repositories fetched")
         return 1
     
-    # Extract and analyze data
-    logger.info("🔍 Analyzing data...")
+    # Extract and analyze GitHub data
+    logger.info("🔍 Analyzing GitHub data...")
     try:
         repos = analyzer.extract_repo_data(raw_repos)
         trending = analyzer.rank_by_stars(repos, top_n=50)
@@ -96,6 +105,18 @@ def main() -> int:
         logger.error(f"❌ Error during analysis: {e}")
         return 1
     
+    # Fetch HackerNews stories
+    hn_stories = []
+    if hn_client:
+        logger.info("📰 Fetching trending HackerNews stories...")
+        try:
+            raw_stories = hn_client.get_trending_stories(limit=10, min_score=100)
+            hn_stories = hn_client.extract_story_data(raw_stories)
+            logger.info(f"✅ Fetched {len(hn_stories)} HackerNews stories")
+        except Exception as e:
+            logger.warning(f"⚠️  Error fetching HackerNews stories: {e}")
+            logger.warning("Continuing without HackerNews data...")
+    
     # Generate outputs
     collected_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     date_str = datetime.now().strftime("%Y-%m-%d")
@@ -104,7 +125,12 @@ def main() -> int:
     
     # Generate README
     try:
-        readme_content = renderer.generate_readme(trending, categories, collected_at)
+        readme_content = renderer.generate_readme(
+            trending, 
+            categories, 
+            collected_at,
+            hn_stories=hn_stories
+        )
         readme_path = Path("README.md")
         readme_path.write_text(readme_content, encoding="utf-8")
         logger.info(f"✅ Updated {readme_path}")
@@ -114,7 +140,12 @@ def main() -> int:
     
     # Generate JSON
     try:
-        json_data = renderer.generate_json(trending, categories, collected_at)
+        json_data = renderer.generate_json(
+            trending, 
+            categories, 
+            collected_at,
+            hn_stories=hn_stories
+        )
         
         # Save daily JSON
         json_path = Path(f"data/{date_str}.json")
@@ -138,7 +169,7 @@ def main() -> int:
         return 1
     
     logger.info("🎉 OSS Orbit Tracker completed successfully!")
-    logger.info(f"📊 Summary: {len(trending)} trending repos, {len(categories)} categories")
+    logger.info(f"📊 Summary: {len(trending)} GitHub repos, {len(hn_stories)} HN stories, {len(categories)} categories")
     
     return 0
 
