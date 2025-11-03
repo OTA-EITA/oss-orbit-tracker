@@ -15,6 +15,7 @@ from github_client import GitHubClient
 from hn_client import HackerNewsClient
 from analyzer import TrendAnalyzer
 from renderer import TrendRenderer
+from notifier import Notifier
 
 # Configure logging
 logging.basicConfig(
@@ -56,6 +57,14 @@ def main() -> int:
         logger.warning(f"⚠️  HackerNews client initialization failed: {e}")
         hn_client = None
     
+    # Initialize Notifier
+    try:
+        notifier = Notifier()
+        logger.info("✅ Notifier initialized")
+    except Exception as e:
+        logger.warning(f"⚠️  Notifier initialization failed: {e}")
+        notifier = None
+    
     analyzer = TrendAnalyzer()
     renderer = TrendRenderer()
     
@@ -80,11 +89,29 @@ def main() -> int:
         logger.info(f"✅ Fetched {len(raw_repos)} repositories")
     except Exception as e:
         logger.error(f"❌ Error fetching repositories: {e}")
+        
+        # Send failure notification
+        if notifier:
+            notifier.send_all_notifications(
+                [], [], 
+                datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                success=False,
+                error_message=str(e)
+            )
         return 1
     
     # Validate data
     if not raw_repos:
         logger.error("❌ No repositories fetched")
+        
+        # Send failure notification
+        if notifier:
+            notifier.send_all_notifications(
+                [], [], 
+                datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                success=False,
+                error_message="No repositories fetched from GitHub API"
+            )
         return 1
     
     # Extract and analyze GitHub data
@@ -103,6 +130,15 @@ def main() -> int:
             
     except Exception as e:
         logger.error(f"❌ Error during analysis: {e}")
+        
+        # Send failure notification
+        if notifier:
+            notifier.send_all_notifications(
+                [], [], 
+                datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                success=False,
+                error_message=f"Analysis error: {str(e)}"
+            )
         return 1
     
     # Fetch HackerNews stories
@@ -136,6 +172,14 @@ def main() -> int:
         logger.info(f"✅ Updated {readme_path}")
     except Exception as e:
         logger.error(f"❌ Error generating README: {e}")
+        
+        # Send failure notification
+        if notifier:
+            notifier.send_all_notifications(
+                trending, hn_stories, collected_at,
+                success=False,
+                error_message=f"README generation error: {str(e)}"
+            )
         return 1
     
     # Generate JSON
@@ -166,10 +210,31 @@ def main() -> int:
         
     except Exception as e:
         logger.error(f"❌ Error generating JSON: {e}")
+        
+        # Send failure notification
+        if notifier:
+            notifier.send_all_notifications(
+                trending, hn_stories, collected_at,
+                success=False,
+                error_message=f"JSON generation error: {str(e)}"
+            )
         return 1
     
     logger.info("🎉 OSS Orbit Tracker completed successfully!")
     logger.info(f"📊 Summary: {len(trending)} GitHub repos, {len(hn_stories)} HN stories, {len(categories)} categories")
+    
+    # Send success notification
+    if notifier:
+        logger.info("📬 Sending notifications...")
+        notification_results = notifier.send_all_notifications(
+            trending, hn_stories, collected_at, success=True
+        )
+        
+        for platform, success in notification_results.items():
+            if success:
+                logger.info(f"  ✅ {platform.capitalize()} notification sent")
+            else:
+                logger.warning(f"  ⚠️  {platform.capitalize()} notification failed")
     
     return 0
 
