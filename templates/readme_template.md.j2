@@ -1,0 +1,65 @@
+# OSS Orbit Tracker
+
+> 世界中のOSSトレンドを毎日収集・分析・可視化するオープンデータプロジェクト
+
+[![Daily Update](https://github.com/YOUR_USERNAME/oss-orbit-tracker/actions/workflows/daily-update.yml/badge.svg)](https://github.com/YOUR_USERNAME/oss-orbit-tracker/actions/workflows/daily-update.yml)
+[![Quality Check](https://github.com/YOUR_USERNAME/oss-orbit-tracker/actions/workflows/quality-check.yml/badge.svg)](https://github.com/YOUR_USERNAME/oss-orbit-tracker/actions/workflows/quality-check.yml)
+
+## 🎯 プロジェクト概要
+
+GitHub全体の人気OSS・注目プロジェクト・活発リポジトリを**毎日自動で収集・可視化**します。
+
+---
+
+## 📊 今日のトレンド ({{ collected_at }})
+
+| Rank | Repository | Stars | Forks | Language | Description |
+|------|------------|-------|-------|----------|-------------|
+{% for repo in trending[:10] -%}
+| {{ loop.index }} | **[{{ repo.name }}]({{ repo.url }})** | ⭐ {{ "{:,}".format(repo.stars) }} | 🍴 {{ "{:,}".format(repo.forks) }} | {{ repo.language }} | {{ (repo.description or 'No description')[:60] }}... |
+{% endfor %}
+
+---
+
+## 🏷️ カテゴリ別トレンド
+
+{% for category, repos in categories.items() -%}
+{% if repos and loop.index <= 5 -%}
+### {{ category }}
+
+{% for repo in repos[:5] -%}
+- **[{{ repo.name }}]({{ repo.url }})** ⭐ {{ "{:,}".format(repo.stars) }}
+{% endfor %}
+
+{% endif -%}
+{% endfor -%}
+
+---
+
+## 🤖 自動化
+
+- **毎日午前9時 (JST)**: トレンドデータを自動収集
+- **自動commit**: データ更新とREADME更新
+- **Issue作成**: 日次レポートを自動生成
+
+## 📈 ロードマップ
+
+- [x] プロジェクト基盤構築
+- [x] GitHub API連携 (v0.1)
+- [x] トップ10ランキング (v0.2)
+- [x] カテゴリ分類 (v0.3)
+- [ ] GitHub Pages可視化 (v1.0)
+
+## 🤝 コントリビューション
+
+Issue・PRを歓迎します!詳しくは [CONTRIBUTING.md](CONTRIBUTING.md) をご覧ください。
+
+## 📄 ライセンス
+
+MIT License - 詳細は [LICENSE](LICENSE) をご覧ください
+
+---
+
+**Made with ❤️ by OSS Community**
+
+🗓 最終更新: {{ collected_at }}
