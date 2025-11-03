@@ -6,7 +6,7 @@ using Jinja2 templates for better maintainability.
 
 import logging
 from pathlib import Path
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional
 
 from jinja2 import Environment, FileSystemLoader, TemplateNotFound
 
@@ -39,7 +39,8 @@ class TrendRenderer:
         self, 
         trending: List[Dict[str, Any]], 
         categories: Dict[str, List[Dict[str, Any]]],
-        collected_at: str
+        collected_at: str,
+        hn_stories: Optional[List[Dict[str, Any]]] = None
     ) -> str:
         """Generate README content with trend data.
         
@@ -47,6 +48,7 @@ class TrendRenderer:
             trending: List of top trending repositories
             categories: Dictionary of categorized repositories
             collected_at: Timestamp of data collection
+            hn_stories: Optional list of HackerNews stories
             
         Returns:
             Markdown formatted README content
@@ -58,7 +60,8 @@ class TrendRenderer:
                 return template.render(
                     trending=trending,
                     categories=categories,
-                    collected_at=collected_at
+                    collected_at=collected_at,
+                    hn_stories=hn_stories or []
                 )
             except TemplateNotFound:
                 logger.warning("Template not found, using fallback generation")
@@ -67,13 +70,14 @@ class TrendRenderer:
                 logger.warning("Using fallback generation")
         
         # Fallback: generate without template
-        return self._generate_readme_fallback(trending, categories, collected_at)
+        return self._generate_readme_fallback(trending, categories, collected_at, hn_stories)
     
     def _generate_readme_fallback(
         self,
         trending: List[Dict[str, Any]],
         categories: Dict[str, List[Dict[str, Any]]],
-        collected_at: str
+        collected_at: str,
+        hn_stories: Optional[List[Dict[str, Any]]] = None
     ) -> str:
         """Fallback README generation without Jinja2.
         
@@ -81,6 +85,7 @@ class TrendRenderer:
             trending: List of trending repositories
             categories: Categorized repositories
             collected_at: Collection timestamp
+            hn_stories: Optional HackerNews stories
             
         Returns:
             Markdown formatted README
@@ -116,6 +121,26 @@ GitHub全体の人気OSS・注目プロジェクト・活発リポジトリを**
         
         readme += "\n---\n\n"
         
+        # Add HackerNews section if available
+        if hn_stories:
+            readme += "## 📰 今日のテック記事トレンド (HackerNews)\n\n"
+            readme += "| Rank | Title | Score | Comments |\n"
+            readme += "|------|-------|-------|----------|\n"
+            
+            for idx, story in enumerate(hn_stories[:10], 1):
+                title = story.get('title', 'No title')
+                score = story.get('score', 0)
+                comments = story.get('descendants', 0)
+                hn_url = story.get('hn_url', '#')
+                
+                # Truncate title if too long
+                if len(title) > 60:
+                    title = title[:60] + "..."
+                
+                readme += f"| {idx} | **[{title}]({hn_url})** | 🔥 {score} | 💬 {comments} |\n"
+            
+            readme += "\n---\n\n"
+        
         # Add category sections
         readme += "## 🏷️ カテゴリ別トレンド\n\n"
         
@@ -140,6 +165,7 @@ GitHub全体の人気OSS・注目プロジェクト・活発リポジトリを**
 - [x] GitHub API連携 (v0.1)
 - [x] トップ10ランキング (v0.2)
 - [x] カテゴリ分類 (v0.3)
+- [x] HackerNews連携 (v0.4)
 - [ ] GitHub Pages可視化 (v1.0)
 
 ## 🤝 コントリビューション
@@ -163,7 +189,8 @@ MIT License - 詳細は [LICENSE](LICENSE) をご覧ください
         self,
         trending: List[Dict[str, Any]],
         categories: Dict[str, List[Dict[str, Any]]],
-        collected_at: str
+        collected_at: str,
+        hn_stories: Optional[List[Dict[str, Any]]] = None
     ) -> Dict[str, Any]:
         """Generate JSON data structure.
         
@@ -171,6 +198,7 @@ MIT License - 詳細は [LICENSE](LICENSE) をご覧ください
             trending: List of trending repositories
             categories: Dictionary of categorized repositories
             collected_at: Timestamp of data collection
+            hn_stories: Optional HackerNews stories
             
         Returns:
             JSON-serializable dictionary
@@ -179,9 +207,11 @@ MIT License - 詳細は [LICENSE](LICENSE) をご覧ください
             "collected_at": collected_at,
             "trending": trending,
             "categories": categories,
+            "hn_stories": hn_stories or [],
             "total_repos": len(trending),
+            "total_hn_stories": len(hn_stories) if hn_stories else 0,
             "metadata": {
-                "version": "0.3.0",
-                "source": "GitHub API"
+                "version": "0.4.0",
+                "sources": ["GitHub API", "HackerNews API"] if hn_stories else ["GitHub API"]
             }
         }
