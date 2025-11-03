@@ -1,0 +1,52 @@
+name: Weekly Data Cleanup
+
+on:
+  schedule:
+    - cron: '0 3 * * 0'  # 毎週日曜日 12:00 JST (UTC 3:00)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    name: Clean up old data files
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run cleanup script
+        run: |
+          python scripts/cleanup.py --retention-days 7 --verbose
+
+      - name: Configure Git user
+        run: |
+          git config --local user.name "oss-tracker-bot"
+          git config --local user.email "bot@ossorbit.dev"
+
+      - name: Commit cleanup results
+        run: |
+          git add data/
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: weekly data cleanup"
+            git push
+          else
+            echo "No files to clean up"
+          fi
+
+      - name: Generate cleanup summary
+        run: |
+          echo "## Weekly Cleanup Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Date**: $(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_STEP_SUMMARY
+          echo "- **Retention Period**: 7 days" >> $GITHUB_STEP_SUMMARY
+          echo "- **Files Remaining**: $(ls data/*.json 2>/dev/null | grep -v latest.json | wc -l)" >> $GITHUB_STEP_SUMMARY
