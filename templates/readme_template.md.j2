@@ -21,6 +21,19 @@ GitHub全体の人気OSS・注目プロジェクト・活発リポジトリを**
 
 ---
 
+{% if hn_stories and hn_stories|length > 0 -%}
+## 📰 今日のテック記事トレンド (HackerNews)
+
+| Rank | Title | Score | Comments |
+|------|-------|-------|----------|
+{% for story in hn_stories[:10] -%}
+| {{ loop.index }} | **[{{ story.title[:60] }}{% if story.title|length > 60 %}...{% endif %}]({{ story.hn_url }})** | 🔥 {{ story.score }} | 💬 {{ story.descendants }} |
+{% endfor %}
+
+---
+
+{% endif -%}
+
 ## 🏷️ カテゴリ別トレンド
 
 {% for category, repos in categories.items() -%}
@@ -48,6 +61,7 @@ GitHub全体の人気OSS・注目プロジェクト・活発リポジトリを**
 - [x] GitHub API連携 (v0.1)
 - [x] トップ10ランキング (v0.2)
 - [x] カテゴリ分類 (v0.3)
+- [x] HackerNews連携 (v0.4)
 - [ ] GitHub Pages可視化 (v1.0)
 
 ## 🤝 コントリビューション
