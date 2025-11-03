@@ -40,6 +40,10 @@ jobs:
         run: |
           python src/main.py
 
+      - name: Cleanup old data files
+        run: |
+          python scripts/cleanup.py --retention-days 7
+
       - name: Configure Git user
         run: |
           git config --local user.name "oss-tracker-bot"
