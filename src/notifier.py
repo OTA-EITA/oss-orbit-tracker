@@ -41,13 +41,13 @@ class Notifier:
         )
         
         if self.discord_webhook_url:
-            logger.info("✅ Discord webhook configured")
+            logger.info("Discord webhook configured")
         
         if self.slack_webhook_url:
-            logger.info("✅ Slack webhook configured")
+            logger.info("Slack webhook configured")
         
         if not self.discord_webhook_url and not self.slack_webhook_url:
-            logger.info("ℹ️  No notification webhooks configured (optional)")
+            logger.info("No notification webhooks configured (optional)")
     
     def send_discord_notification(
         self,
@@ -94,14 +94,14 @@ class Notifier:
             )
             response.raise_for_status()
             
-            logger.info("✅ Discord notification sent successfully")
+            logger.info("Discord notification sent successfully")
             return True
             
         except RequestException as e:
-            logger.error(f"❌ Failed to send Discord notification: {e}")
+            logger.error(f"Failed to send Discord notification: {e}")
             return False
         except Exception as e:
-            logger.error(f"❌ Unexpected error sending Discord notification: {e}")
+            logger.error(f"Unexpected error sending Discord notification: {e}")
             return False
     
     def send_slack_notification(
@@ -145,14 +145,14 @@ class Notifier:
             )
             response.raise_for_status()
             
-            logger.info("✅ Slack notification sent successfully")
+            logger.info("Slack notification sent successfully")
             return True
             
         except RequestException as e:
-            logger.error(f"❌ Failed to send Slack notification: {e}")
+            logger.error(f"Failed to send Slack notification: {e}")
             return False
         except Exception as e:
-            logger.error(f"❌ Unexpected error sending Slack notification: {e}")
+            logger.error(f"Unexpected error sending Slack notification: {e}")
             return False
     
     def send_all_notifications(
@@ -211,7 +211,7 @@ class Notifier:
         """
         if not success:
             return {
-                "title": "❌ OSS Orbit Tracker - Collection Failed",
+                "title": "[FAILED] OSS Orbit Tracker - Collection Failed",
                 "description": f"Error: {error_message}",
                 "color": 0xFF0000,  # Red
                 "timestamp": collected_at,
@@ -221,26 +221,26 @@ class Notifier:
             }
         
         # Success message
-        description = f"📊 **Collected Data:**\n"
-        description += f"• GitHub Repositories: {len(trending)}\n"
-        description += f"• HackerNews Stories: {len(hn_stories)}\n"
-        description += f"• Updated: {collected_at}\n\n"
+        description = f"**Collected Data:**\n"
+        description += f"- GitHub Repositories: {len(trending)}\n"
+        description += f"- HackerNews Stories: {len(hn_stories)}\n"
+        description += f"- Updated: {collected_at}\n\n"
         
         # Top 5 repos
         if trending:
-            description += "**🌟 Top 5 GitHub Repositories:**\n"
+            description += "**Top 5 GitHub Repositories:**\n"
             for idx, repo in enumerate(trending[:5], 1):
                 stars = f"{repo['stars']:,}"
-                description += f"{idx}. [{repo['name']}]({repo['url']}) - ⭐ {stars}\n"
+                description += f"{idx}. [{repo['name']}]({repo['url']}) - Stars: {stars}\n"
         
         # Top 3 HN stories
         if hn_stories:
-            description += "\n**📰 Top 3 HackerNews Stories:**\n"
+            description += "\n**Top 3 HackerNews Stories:**\n"
             for idx, story in enumerate(hn_stories[:3], 1):
-                description += f"{idx}. [{story['title'][:50]}...]({story['hn_url']}) - 🔥 {story['score']}\n"
+                description += f"{idx}. [{story['title'][:50]}...]({story['hn_url']}) - Score: {story['score']}\n"
         
         return {
-            "title": "✅ OSS Orbit Tracker - Daily Update Complete",
+            "title": "[SUCCESS] OSS Orbit Tracker - Daily Update Complete",
             "description": description,
             "color": 0x00FF00,  # Green
             "timestamp": collected_at,
@@ -271,7 +271,7 @@ class Notifier:
         """
         if not success:
             return {
-                "text": f"❌ OSS Orbit Tracker - Collection Failed\n\nError: {error_message}",
+                "text": f"[FAILED] OSS Orbit Tracker - Collection Failed\n\nError: {error_message}",
                 "attachments": [
                     {
                         "color": "danger",
@@ -282,11 +282,11 @@ class Notifier:
             }
         
         # Success message
-        text = "✅ *OSS Orbit Tracker - Daily Update Complete*\n\n"
-        text += f"📊 *Collected Data:*\n"
-        text += f"• GitHub Repositories: {len(trending)}\n"
-        text += f"• HackerNews Stories: {len(hn_stories)}\n"
-        text += f"• Updated: {collected_at}\n"
+        text = "[SUCCESS] *OSS Orbit Tracker - Daily Update Complete*\n\n"
+        text += f"*Collected Data:*\n"
+        text += f"- GitHub Repositories: {len(trending)}\n"
+        text += f"- HackerNews Stories: {len(hn_stories)}\n"
+        text += f"- Updated: {collected_at}\n"
         
         blocks = [
             {
@@ -300,10 +300,10 @@ class Notifier:
         
         # Top 5 repos
         if trending:
-            repo_text = "*🌟 Top 5 GitHub Repositories:*\n"
+            repo_text = "*Top 5 GitHub Repositories:*\n"
             for idx, repo in enumerate(trending[:5], 1):
                 stars = f"{repo['stars']:,}"
-                repo_text += f"{idx}. <{repo['url']}|{repo['name']}> - ⭐ {stars}\n"
+                repo_text += f"{idx}. <{repo['url']}|{repo['name']}> - Stars: {stars}\n"
             
             blocks.append({
                 "type": "section",
@@ -315,9 +315,9 @@ class Notifier:
         
         # Top 3 HN stories
         if hn_stories:
-            hn_text = "*📰 Top 3 HackerNews Stories:*\n"
+            hn_text = "*Top 3 HackerNews Stories:*\n"
             for idx, story in enumerate(hn_stories[:3], 1):
-                hn_text += f"{idx}. <{story['hn_url']}|{story['title'][:50]}...> - 🔥 {story['score']}\n"
+                hn_text += f"{idx}. <{story['hn_url']}|{story['title'][:50]}...> - Score: {story['score']}\n"
             
             blocks.append({
                 "type": "section",
