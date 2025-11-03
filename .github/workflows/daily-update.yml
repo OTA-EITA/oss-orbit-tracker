@@ -37,6 +37,8 @@ jobs:
       - name: Run trend tracker
         env:
           GH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          SLACK_WEBHOOK_URL_MONITORING_CLOUDS: ${{ secrets.SLACK_WEBHOOK_URL_MONITORING_CLOUDS }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
           python src/main.py
 
