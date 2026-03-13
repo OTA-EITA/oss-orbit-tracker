@@ -11,20 +11,20 @@ GitHub全体の人気OSS・注目プロジェクト・活発リポジトリを**
 
 ---
 
-## 📊 今日のトレンド (2026-03-12 02:07:24)
+## 📊 今日のトレンド (2026-03-13 02:05:02)
 
 | Rank | Repository | Stars | Forks | Language | Description |
 |------|------------|-------|-------|----------|-------------|
-| 1 | **[codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)** | ⭐ 474,256 | 🍴 44,444 | Markdown | Master programming by recreating your favorite technologies ... |
-| 2 | **[sindresorhus/awesome](https://github.com/sindresorhus/awesome)** | ⭐ 444,797 | 🍴 33,500 | Unknown | 😎 Awesome lists about all kinds of interesting topics... |
-| 3 | **[freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)** | ⭐ 438,080 | 🍴 43,572 | TypeScript | freeCodeCamp.org's open-source codebase and curriculum. Lear... |
-| 4 | **[public-apis/public-apis](https://github.com/public-apis/public-apis)** | ⭐ 407,347 | 🍴 43,978 | Python | A collective list of free APIs... |
-| 5 | **[EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)** | ⭐ 383,963 | 🍴 66,008 | Python | :books: Freely available programming books... |
-| 6 | **[kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)** | ⭐ 350,777 | 🍴 43,774 | TypeScript | Interactive roadmaps, guides and other educational content t... |
-| 7 | **[donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)** | ⭐ 338,538 | 🍴 54,838 | Python | Learn how to design large-scale systems. Prep for the system... |
-| 8 | **[jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)** | ⭐ 337,823 | 🍴 81,625 | Unknown | A complete computer science study plan to become a software ... |
-| 9 | **[openclaw/openclaw](https://github.com/openclaw/openclaw)** | ⭐ 304,144 | 🍴 57,459 | TypeScript | Your own personal AI assistant. Any OS. Any Platform. The lo... |
-| 10 | **[vinta/awesome-python](https://github.com/vinta/awesome-python)** | ⭐ 286,752 | 🍴 27,359 | Python | An opinionated list of awesome Python frameworks, libraries,... |
+| 1 | **[codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)** | ⭐ 474,550 | 🍴 44,494 | Markdown | Master programming by recreating your favorite technologies ... |
+| 2 | **[sindresorhus/awesome](https://github.com/sindresorhus/awesome)** | ⭐ 445,066 | 🍴 33,514 | Unknown | 😎 Awesome lists about all kinds of interesting topics... |
+| 3 | **[freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)** | ⭐ 438,104 | 🍴 43,583 | TypeScript | freeCodeCamp.org's open-source codebase and curriculum. Lear... |
+| 4 | **[public-apis/public-apis](https://github.com/public-apis/public-apis)** | ⭐ 408,552 | 🍴 44,115 | Python | A collective list of free APIs... |
+| 5 | **[EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)** | ⭐ 383,992 | 🍴 66,011 | Python | :books: Freely available programming books... |
+| 6 | **[kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)** | ⭐ 350,838 | 🍴 43,779 | TypeScript | Interactive roadmaps, guides and other educational content t... |
+| 7 | **[donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)** | ⭐ 338,675 | 🍴 54,859 | Python | Learn how to design large-scale systems. Prep for the system... |
+| 8 | **[jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)** | ⭐ 337,814 | 🍴 81,630 | Unknown | A complete computer science study plan to become a software ... |
+| 9 | **[openclaw/openclaw](https://github.com/openclaw/openclaw)** | ⭐ 307,906 | 🍴 58,327 | TypeScript | Your own personal AI assistant. Any OS. Any Platform. The lo... |
+| 10 | **[vinta/awesome-python](https://github.com/vinta/awesome-python)** | ⭐ 286,899 | 🍴 27,370 | Python | An opinionated list of awesome Python frameworks, libraries,... |
 
 ---
 
@@ -32,16 +32,16 @@ GitHub全体の人気OSS・注目プロジェクト・活発リポジトリを**
 
 | Rank | Title | Score | Comments |
 |------|-------|-------|----------|
-| 1 | **[Temporal: A nine-year journey to fix time in JavaScript](https://news.ycombinator.com/item?id=47336989)** | 🔥 525 | 💬 181 |
-| 2 | **[Many SWE-bench-Passing PRs would not be merged](https://news.ycombinator.com/item?id=47341645)** | 🔥 140 | 💬 41 |
-| 3 | **[Don't post generated/AI-edited comments. HN is for conversat...](https://news.ycombinator.com/item?id=47340079)** | 🔥 2798 | 💬 1025 |
-| 4 | **[Making WebAssembly a first-class language on the Web](https://news.ycombinator.com/item?id=47331811)** | 🔥 403 | 💬 146 |
-| 5 | **[I was interviewed by an AI bot for a job](https://news.ycombinator.com/item?id=47339164)** | 🔥 147 | 💬 158 |
-| 6 | **[Show HN: I built a tool that watches webpages and exposes ch...](https://news.ycombinator.com/item?id=47337607)** | 🔥 168 | 💬 45 |
-| 7 | **[Google closes deal to acquire Wiz](https://news.ycombinator.com/item?id=47336476)** | 🔥 231 | 💬 158 |
-| 8 | **[The MacBook Neo](https://news.ycombinator.com/item?id=47334293)** | 🔥 403 | 💬 687 |
-| 9 | **[BitNet: 100B Param 1-Bit model for local CPUs](https://news.ycombinator.com/item?id=47334694)** | 🔥 306 | 💬 150 |
-| 10 | **[Entities enabling scientific fraud at scale (2025)](https://news.ycombinator.com/item?id=47335349)** | 🔥 262 | 💬 187 |
+| 1 | **[Shall I implement it? No](https://news.ycombinator.com/item?id=47357042)** | 🔥 826 | 💬 300 |
+| 2 | **[Malus – Clean Room as a Service](https://news.ycombinator.com/item?id=47350424)** | 🔥 1042 | 💬 402 |
+| 3 | **[Bubble Sorted Amen Break](https://news.ycombinator.com/item?id=47354098)** | 🔥 261 | 💬 86 |
+| 4 | **[Reversing memory loss via gut-brain communication](https://news.ycombinator.com/item?id=47353533)** | 🔥 236 | 💬 94 |
+| 5 | **[ATMs didn't kill bank teller jobs, but the iPhone did](https://news.ycombinator.com/item?id=47351371)** | 🔥 329 | 💬 373 |
+| 6 | **[The Met releases high-def 3D scans of 140 famous art objects](https://news.ycombinator.com/item?id=47352459)** | 🔥 232 | 💬 48 |
+| 7 | **[Innocent woman jailed after being misidentified using AI fac...](https://news.ycombinator.com/item?id=47356968)** | 🔥 407 | 💬 208 |
+| 8 | **[US private credit defaults hit record 9.2% in 2025, Fitch sa...](https://news.ycombinator.com/item?id=47349806)** | 🔥 260 | 💬 349 |
+| 9 | **[Dolphin Progress Release 2603](https://news.ycombinator.com/item?id=47348304)** | 🔥 306 | 💬 51 |
+| 10 | **[Show HN: OneCLI – Vault for AI Agents in Rust](https://news.ycombinator.com/item?id=47353558)** | 🔥 124 | 💬 39 |
 
 ---
 
@@ -49,38 +49,38 @@ GitHub全体の人気OSS・注目プロジェクト・活発リポジトリを**
 
 ### Web
 
-- **[freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)** ⭐ 438,080
-- **[kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)** ⭐ 350,777
-- **[donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)** ⭐ 338,538
-- **[practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning)** ⭐ 260,837
-- **[facebook/react](https://github.com/facebook/react)** ⭐ 243,920
+- **[freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)** ⭐ 438,104
+- **[kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)** ⭐ 350,838
+- **[donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)** ⭐ 338,675
+- **[practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning)** ⭐ 260,893
+- **[facebook/react](https://github.com/facebook/react)** ⭐ 243,938
 
 ### AI/ML
 
-- **[kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)** ⭐ 350,777
-- **[openclaw/openclaw](https://github.com/openclaw/openclaw)** ⭐ 304,144
-- **[tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)** ⭐ 194,166
-- **[getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS)** ⭐ 184,485
-- **[Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)** ⭐ 182,364
+- **[kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)** ⭐ 350,838
+- **[openclaw/openclaw](https://github.com/openclaw/openclaw)** ⭐ 307,906
+- **[tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)** ⭐ 194,175
+- **[getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS)** ⭐ 184,491
+- **[Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)** ⭐ 182,407
 
 ### DevOps
 
-- **[kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)** ⭐ 350,777
-- **[trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)** ⭐ 209,696
-- **[kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)** ⭐ 121,129
+- **[kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)** ⭐ 350,838
+- **[trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)** ⭐ 209,815
+- **[kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)** ⭐ 121,143
 
 ### Mobile
 
-- **[flutter/flutter](https://github.com/flutter/flutter)** ⭐ 175,511
-- **[Genymobile/scrcpy](https://github.com/Genymobile/scrcpy)** ⭐ 136,824
-- **[facebook/react-native](https://github.com/facebook/react-native)** ⭐ 125,554
-- **[justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN)** ⭐ 116,433
-- **[rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)** ⭐ 109,088
+- **[flutter/flutter](https://github.com/flutter/flutter)** ⭐ 175,527
+- **[Genymobile/scrcpy](https://github.com/Genymobile/scrcpy)** ⭐ 136,880
+- **[facebook/react-native](https://github.com/facebook/react-native)** ⭐ 125,573
+- **[justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN)** ⭐ 116,447
+- **[rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)** ⭐ 109,181
 
 ### Data
 
-- **[Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide)** ⭐ 154,193
-- **[supabase/supabase](https://github.com/supabase/supabase)** ⭐ 98,937
+- **[Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide)** ⭐ 154,205
+- **[supabase/supabase](https://github.com/supabase/supabase)** ⭐ 98,954
 
 ---
 
@@ -111,4 +111,4 @@ MIT License - 詳細は [LICENSE](LICENSE) をご覧ください
 
 **Made with ❤️ by OSS Community**
 
-🗓 最終更新: 2026-03-12 02:07:24
+🗓 最終更新: 2026-03-13 02:05:02
