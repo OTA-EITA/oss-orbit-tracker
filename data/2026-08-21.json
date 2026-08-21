@@ -1,14 +1,14 @@
 {
-  "collected_at": "2026-08-14 01:53:36",
+  "collected_at": "2026-08-21 01:14:46",
   "trending": [
     {
       "name": "codecrafters-io/build-your-own-x",
       "description": "Master programming by recreating your favorite technologies from scratch.",
-      "stars": 539468,
-      "forks": 50936,
+      "stars": 541619,
+      "forks": 51085,
       "language": "Markdown",
       "url": "https://github.com/codecrafters-io/build-your-own-x",
-      "updated_at": "2026-08-14T01:52:48Z",
+      "updated_at": "2026-08-21T01:12:29Z",
       "created_at": "2018-05-09T12:03:18Z",
       "topics": [
         "awesome-list",
@@ -18,16 +18,16 @@
         "tutorial-exercises",
         "tutorials"
       ],
-      "open_issues": 626
+      "open_issues": 635
     },
     {
       "name": "sindresorhus/awesome",
       "description": "😎 Awesome lists about all kinds of interesting topics",
-      "stars": 495412,
-      "forks": 36374,
+      "stars": 498250,
+      "forks": 36498,
       "language": "Unknown",
       "url": "https://github.com/sindresorhus/awesome",
-      "updated_at": "2026-08-14T01:50:56Z",
+      "updated_at": "2026-08-21T01:14:24Z",
       "created_at": "2014-07-11T13:42:37Z",
       "topics": [
         "awesome",
@@ -36,16 +36,16 @@
         "resources",
         "unicorns"
       ],
-      "open_issues": 99
+      "open_issues": 105
     },
     {
       "name": "public-apis/public-apis",
       "description": "A collective list of free APIs",
-      "stars": 455979,
-      "forks": 50307,
+      "stars": 467241,
+      "forks": 51533,
       "language": "Python",
       "url": "https://github.com/public-apis/public-apis",
-      "updated_at": "2026-08-14T01:50:10Z",
+      "updated_at": "2026-08-21T01:13:46Z",
       "created_at": "2016-03-20T23:49:42Z",
       "topics": [
         "api",
@@ -62,16 +62,16 @@
         "resources",
         "software"
       ],
-      "open_issues": 1634
+      "open_issues": 1713
     },
     {
       "name": "freeCodeCamp/freeCodeCamp",
       "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
-      "stars": 453970,
-      "forks": 45960,
+      "stars": 454372,
+      "forks": 46016,
       "language": "TypeScript",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "updated_at": "2026-08-14T01:51:59Z",
+      "updated_at": "2026-08-21T00:51:55Z",
       "created_at": "2014-12-24T17:49:19Z",
       "topics": [
         "careers",
@@ -95,11 +95,11 @@
     {
       "name": "EbookFoundation/free-programming-books",
       "description": ":books: Freely available programming books",
-      "stars": 394346,
-      "forks": 66668,
+      "stars": 394870,
+      "forks": 66669,
       "language": "Python",
       "url": "https://github.com/EbookFoundation/free-programming-books",
-      "updated_at": "2026-08-14T01:53:07Z",
+      "updated_at": "2026-08-21T00:51:41Z",
       "created_at": "2013-10-11T06:50:37Z",
       "topics": [
         "books",
@@ -108,16 +108,16 @@
         "list",
         "resource"
       ],
-      "open_issues": 80
+      "open_issues": 81
     },
     {
       "name": "openclaw/openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
-      "stars": 386209,
-      "forks": 81172,
+      "stars": 386916,
+      "forks": 81275,
       "language": "TypeScript",
       "url": "https://github.com/openclaw/openclaw",
-      "updated_at": "2026-08-14T01:52:02Z",
+      "updated_at": "2026-08-21T01:13:49Z",
       "created_at": "2025-11-24T10:16:47Z",
       "topics": [
         "ai",
@@ -128,16 +128,42 @@
         "own-your-data",
         "personal"
       ],
-      "open_issues": 5574
+      "open_issues": 5845
+    },
+    {
+      "name": "donnemartin/system-design-primer",
+      "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
+      "stars": 365121,
+      "forks": 57979,
+      "language": "Python",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "updated_at": "2026-08-21T01:11:56Z",
+      "created_at": "2017-02-26T16:15:28Z",
+      "topics": [
+        "design",
+        "design-patterns",
+        "design-system",
+        "development",
+        "interview",
+        "interview-practice",
+        "interview-questions",
+        "programming",
+        "python",
+        "system",
+        "web",
+        "web-application",
+        "webapp"
+      ],
+      "open_issues": 608
     },
     {
       "name": "nilbuild/developer-roadmap",
       "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
-      "stars": 364359,
-      "forks": 44782,
+      "stars": 365019,
+      "forks": 44820,
       "language": "TypeScript",
       "url": "https://github.com/nilbuild/developer-roadmap",
-      "updated_at": "2026-08-14T01:24:22Z",
+      "updated_at": "2026-08-21T01:04:48Z",
       "created_at": "2017-03-15T13:45:52Z",
       "topics": [
         "angular-roadmap",
@@ -159,42 +185,16 @@
         "software-architect-roadmap",
         "vue-roadmap"
       ],
-      "open_issues": 10
-    },
-    {
-      "name": "donnemartin/system-design-primer",
-      "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
-      "stars": 363660,
-      "forks": 57828,
-      "language": "Python",
-      "url": "https://github.com/donnemartin/system-design-primer",
-      "updated_at": "2026-08-14T01:43:39Z",
-      "created_at": "2017-02-26T16:15:28Z",
-      "topics": [
-        "design",
-        "design-patterns",
-        "design-system",
-        "development",
-        "interview",
-        "interview-practice",
-        "interview-questions",
-        "programming",
-        "python",
-        "system",
-        "web",
-        "web-application",
-        "webapp"
-      ],
-      "open_issues": 601
+      "open_issues": 7
     },
     {
       "name": "jwasham/coding-interview-university",
       "description": "A complete computer science study plan to become a software engineer.",
-      "stars": 358658,
-      "forks": 84635,
+      "stars": 359355,
+      "forks": 84684,
       "language": "Unknown",
       "url": "https://github.com/jwasham/coding-interview-university",
-      "updated_at": "2026-08-14T01:39:38Z",
+      "updated_at": "2026-08-21T01:12:25Z",
       "created_at": "2016-06-06T02:34:12Z",
       "topics": [
         "algorithm",
@@ -214,12 +214,12 @@
     },
     {
       "name": "vinta/awesome-python",
-      "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
-      "stars": 313813,
-      "forks": 28517,
+      "description": "The definitive list that answers \"I want to do X in Python, which tool should I use?\"",
+      "stars": 315162,
+      "forks": 28551,
       "language": "Python",
       "url": "https://github.com/vinta/awesome-python",
-      "updated_at": "2026-08-14T01:27:06Z",
+      "updated_at": "2026-08-21T01:12:50Z",
       "created_at": "2014-06-27T21:00:06Z",
       "topics": [
         "awesome",
@@ -229,16 +229,16 @@
         "python-libraries",
         "python-tools"
       ],
-      "open_issues": 26
+      "open_issues": 17
     },
     {
       "name": "awesome-selfhosted/awesome-selfhosted",
       "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
-      "stars": 312472,
-      "forks": 14667,
+      "stars": 313978,
+      "forks": 14747,
       "language": "Unknown",
       "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-      "updated_at": "2026-08-14T01:42:04Z",
+      "updated_at": "2026-08-21T00:56:58Z",
       "created_at": "2015-06-01T02:33:17Z",
       "topics": [
         "awesome",
@@ -255,11 +255,11 @@
     {
       "name": "practical-tutorials/project-based-learning",
       "description": "Curated list of project-based tutorials",
-      "stars": 279081,
-      "forks": 35844,
+      "stars": 280139,
+      "forks": 35965,
       "language": "Python",
       "url": "https://github.com/practical-tutorials/project-based-learning",
-      "updated_at": "2026-08-14T01:52:27Z",
+      "updated_at": "2026-08-21T01:01:59Z",
       "created_at": "2017-04-12T05:07:46Z",
       "topics": [
         "beginner-project",
@@ -271,28 +271,28 @@
         "tutorial",
         "webdevelopment"
       ],
-      "open_issues": 267
+      "open_issues": 270
     },
     {
       "name": "996icu/996.ICU",
       "description": "Repo for counting stars and contributing. Press F to pay respect to glorious developers.",
-      "stars": 276629,
-      "forks": 20758,
+      "stars": 276730,
+      "forks": 20753,
       "language": "Unknown",
       "url": "https://github.com/996icu/996.ICU",
-      "updated_at": "2026-08-14T01:51:13Z",
+      "updated_at": "2026-08-21T01:05:22Z",
       "created_at": "2019-03-26T07:31:14Z",
       "topics": [],
-      "open_issues": 16695
+      "open_issues": 16694
     },
     {
       "name": "obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
-      "stars": 271769,
-      "forks": 24305,
+      "stars": 274959,
+      "forks": 24606,
       "language": "Shell",
       "url": "https://github.com/obra/superpowers",
-      "updated_at": "2026-08-14T01:52:41Z",
+      "updated_at": "2026-08-21T01:14:27Z",
       "created_at": "2025-10-09T19:45:18Z",
       "topics": [
         "ai",
@@ -304,16 +304,16 @@
         "subagent-driven-development",
         "superpowers"
       ],
-      "open_issues": 328
+      "open_issues": 297
     },
     {
       "name": "react/react",
       "description": "The library for web and native user interfaces.",
-      "stars": 247238,
-      "forks": 51246,
+      "stars": 247447,
+      "forks": 51237,
       "language": "JavaScript",
       "url": "https://github.com/react/react",
-      "updated_at": "2026-08-14T01:39:54Z",
+      "updated_at": "2026-08-21T00:59:22Z",
       "created_at": "2013-05-24T16:15:54Z",
       "topics": [
         "declarative",
@@ -323,16 +323,16 @@
         "react",
         "ui"
       ],
-      "open_issues": 1245
+      "open_issues": 1253
     },
     {
       "name": "torvalds/linux",
       "description": "Linux kernel source tree",
-      "stars": 242765,
-      "forks": 63913,
+      "stars": 243449,
+      "forks": 64013,
       "language": "C",
       "url": "https://github.com/torvalds/linux",
-      "updated_at": "2026-08-14T01:45:55Z",
+      "updated_at": "2026-08-21T00:57:45Z",
       "created_at": "2011-09-04T22:48:12Z",
       "topics": [],
       "open_issues": 3
@@ -340,11 +340,11 @@
     {
       "name": "affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "stars": 239990,
-      "forks": 36430,
+      "stars": 241474,
+      "forks": 36617,
       "language": "JavaScript",
       "url": "https://github.com/affaan-m/ECC",
-      "updated_at": "2026-08-14T01:51:15Z",
+      "updated_at": "2026-08-21T01:14:17Z",
       "created_at": "2026-01-18T00:51:51Z",
       "topics": [
         "ai-agents",
@@ -356,16 +356,16 @@
         "mcp",
         "productivity"
       ],
-      "open_issues": 115
+      "open_issues": 146
     },
     {
       "name": "trimstray/the-book-of-secret-knowledge",
       "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
-      "stars": 238216,
-      "forks": 14104,
+      "stars": 239437,
+      "forks": 14167,
       "language": "Unknown",
       "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
-      "updated_at": "2026-08-14T01:49:55Z",
+      "updated_at": "2026-08-21T01:10:08Z",
       "created_at": "2018-06-23T10:43:14Z",
       "topics": [
         "awesome",
@@ -388,16 +388,16 @@
         "security-researchers",
         "sysops"
       ],
-      "open_issues": 163
+      "open_issues": 166
     },
     {
       "name": "NousResearch/hermes-agent",
       "description": "The agent that grows with you",
-      "stars": 230158,
-      "forks": 45542,
+      "stars": 233558,
+      "forks": 46805,
       "language": "Python",
       "url": "https://github.com/NousResearch/hermes-agent",
-      "updated_at": "2026-08-14T01:52:30Z",
+      "updated_at": "2026-08-21T01:14:34Z",
       "created_at": "2025-07-22T22:22:28Z",
       "topics": [
         "ai",
@@ -414,16 +414,28 @@
         "nous-research",
         "openai"
       ],
-      "open_issues": 31863
+      "open_issues": 34012
+    },
+    {
+      "name": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "stars": 226540,
+      "forks": 19426,
+      "language": "Shell",
+      "url": "https://github.com/mattpocock/skills",
+      "updated_at": "2026-08-21T01:13:57Z",
+      "created_at": "2026-02-03T11:15:53Z",
+      "topics": [],
+      "open_issues": 375
     },
     {
       "name": "TheAlgorithms/Python",
       "description": "All Algorithms implemented in Python",
-      "stars": 223733,
-      "forks": 50968,
+      "stars": 223900,
+      "forks": 50980,
       "language": "Python",
       "url": "https://github.com/TheAlgorithms/Python",
-      "updated_at": "2026-08-14T01:32:32Z",
+      "updated_at": "2026-08-21T00:08:58Z",
       "created_at": "2016-07-16T09:44:01Z",
       "topics": [
         "algorithm",
@@ -441,28 +453,16 @@
         "sorting-algorithms",
         "sorts"
       ],
-      "open_issues": 1024
-    },
-    {
-      "name": "mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "stars": 216460,
-      "forks": 18657,
-      "language": "Shell",
-      "url": "https://github.com/mattpocock/skills",
-      "updated_at": "2026-08-14T01:53:19Z",
-      "created_at": "2026-02-03T11:15:53Z",
-      "topics": [],
-      "open_issues": 328
+      "open_issues": 1047
     },
     {
       "name": "vuejs/vue",
       "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
-      "stars": 210234,
-      "forks": 33778,
+      "stars": 210249,
+      "forks": 33758,
       "language": "TypeScript",
       "url": "https://github.com/vuejs/vue",
-      "updated_at": "2026-08-14T01:23:07Z",
+      "updated_at": "2026-08-20T21:45:30Z",
       "created_at": "2013-07-29T03:24:51Z",
       "topics": [
         "framework",
@@ -470,16 +470,16 @@
         "javascript",
         "vue"
       ],
-      "open_issues": 637
+      "open_issues": 636
     },
     {
       "name": "ossu/computer-science",
       "description": "🎓 Path to a free self-taught education in Computer Science!",
-      "stars": 207968,
-      "forks": 25751,
+      "stars": 208255,
+      "forks": 25775,
       "language": "HTML",
       "url": "https://github.com/ossu/computer-science",
-      "updated_at": "2026-08-14T01:29:22Z",
+      "updated_at": "2026-08-21T00:54:33Z",
       "created_at": "2014-05-04T00:18:39Z",
       "topics": [
         "awesome-list",
@@ -487,28 +487,28 @@
         "courses",
         "curriculum"
       ],
-      "open_issues": 24
+      "open_issues": 25
     },
     {
       "name": "multica-ai/andrej-karpathy-skills",
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "stars": 202204,
-      "forks": 20746,
+      "stars": 204403,
+      "forks": 20950,
       "language": "Unknown",
       "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "updated_at": "2026-08-14T01:51:26Z",
+      "updated_at": "2026-08-21T01:14:06Z",
       "created_at": "2026-01-27T03:53:13Z",
       "topics": [],
-      "open_issues": 127
+      "open_issues": 126
     },
     {
       "name": "n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "stars": 200536,
-      "forks": 60120,
+      "stars": 201384,
+      "forks": 60250,
       "language": "TypeScript",
       "url": "https://github.com/n8n-io/n8n",
-      "updated_at": "2026-08-14T01:48:27Z",
+      "updated_at": "2026-08-21T01:11:41Z",
       "created_at": "2019-06-22T09:24:21Z",
       "topics": [
         "ai",
@@ -532,28 +532,28 @@
         "workflow",
         "workflow-automation"
       ],
-      "open_issues": 1303
+      "open_issues": 1069
     },
     {
       "name": "anomalyco/opencode",
       "description": "The open source coding agent.",
-      "stars": 197131,
-      "forks": 25352,
+      "stars": 199562,
+      "forks": 25755,
       "language": "TypeScript",
       "url": "https://github.com/anomalyco/opencode",
-      "updated_at": "2026-08-14T01:50:31Z",
+      "updated_at": "2026-08-21T01:03:44Z",
       "created_at": "2025-04-30T20:08:00Z",
       "topics": [],
-      "open_issues": 5209
+      "open_issues": 5262
     },
     {
       "name": "tensorflow/tensorflow",
       "description": "An Open Source Machine Learning Framework for Everyone",
-      "stars": 197006,
-      "forks": 76011,
+      "stars": 197108,
+      "forks": 76079,
       "language": "C++",
       "url": "https://github.com/tensorflow/tensorflow",
-      "updated_at": "2026-08-14T01:42:46Z",
+      "updated_at": "2026-08-20T22:05:55Z",
       "created_at": "2015-11-07T01:19:20Z",
       "topics": [
         "deep-learning",
@@ -565,16 +565,16 @@
         "python",
         "tensorflow"
       ],
-      "open_issues": 2862
+      "open_issues": 3138
     },
     {
       "name": "trekhleb/javascript-algorithms",
       "description": "📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
-      "stars": 196464,
-      "forks": 31043,
+      "stars": 196522,
+      "forks": 31041,
       "language": "JavaScript",
       "url": "https://github.com/trekhleb/javascript-algorithms",
-      "updated_at": "2026-08-14T01:51:05Z",
+      "updated_at": "2026-08-20T22:04:32Z",
       "created_at": "2018-03-24T07:47:04Z",
       "topics": [
         "algorithm",
@@ -586,28 +586,28 @@
         "javascript",
         "javascript-algorithms"
       ],
-      "open_issues": 403
+      "open_issues": 405
     },
     {
       "name": "ultraworkers/claw-code",
       "description": "An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.",
-      "stars": 195074,
-      "forks": 109169,
+      "stars": 195087,
+      "forks": 109023,
       "language": "Rust",
       "url": "https://github.com/ultraworkers/claw-code",
-      "updated_at": "2026-08-13T23:40:53Z",
+      "updated_at": "2026-08-21T01:01:14Z",
       "created_at": "2026-03-31T08:58:08Z",
       "topics": [],
-      "open_issues": 37
+      "open_issues": 40
     },
     {
       "name": "DigitalPlatDev/FreeDomain",
       "description": "Free domain registration and practical DNS learning resources for everyone.",
-      "stars": 192642,
-      "forks": 4102,
+      "stars": 194560,
+      "forks": 4182,
       "language": "Markdown",
       "url": "https://github.com/DigitalPlatDev/FreeDomain",
-      "updated_at": "2026-08-14T01:53:25Z",
+      "updated_at": "2026-08-21T01:00:19Z",
       "created_at": "2024-05-30T13:23:00Z",
       "topics": [
         "digitalplat",
@@ -631,11 +631,11 @@
     {
       "name": "ohmyzsh/ohmyzsh",
       "description": "🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
-      "stars": 189165,
-      "forks": 26585,
+      "stars": 189273,
+      "forks": 26575,
       "language": "Shell",
       "url": "https://github.com/ohmyzsh/ohmyzsh",
-      "updated_at": "2026-08-14T01:21:30Z",
+      "updated_at": "2026-08-21T00:51:25Z",
       "created_at": "2009-08-28T18:15:37Z",
       "topics": [
         "cli",
@@ -654,16 +654,16 @@
         "zsh",
         "zsh-configuration"
       ],
-      "open_issues": 579
+      "open_issues": 594
     },
     {
       "name": "microsoft/vscode",
       "description": "Visual Studio Code",
-      "stars": 188671,
-      "forks": 41622,
+      "stars": 188996,
+      "forks": 41735,
       "language": "TypeScript",
       "url": "https://github.com/microsoft/vscode",
-      "updated_at": "2026-08-14T01:42:51Z",
+      "updated_at": "2026-08-21T00:58:29Z",
       "created_at": "2015-09-03T20:23:38Z",
       "topics": [
         "editor",
@@ -672,16 +672,16 @@
         "typescript",
         "visual-studio-code"
       ],
-      "open_issues": 19802
+      "open_issues": 20025
     },
     {
       "name": "massgravel/Microsoft-Activation-Scripts",
       "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
-      "stars": 186945,
-      "forks": 17888,
+      "stars": 187736,
+      "forks": 17946,
       "language": "Batchfile",
       "url": "https://github.com/massgravel/Microsoft-Activation-Scripts",
-      "updated_at": "2026-08-14T01:46:53Z",
+      "updated_at": "2026-08-21T01:10:30Z",
       "created_at": "2020-01-12T23:03:34Z",
       "topics": [
         "activator",
@@ -701,16 +701,16 @@
         "windows-10",
         "windows-11"
       ],
-      "open_issues": 4
+      "open_issues": 8
     },
     {
       "name": "Significant-Gravitas/AutoGPT",
       "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-      "stars": 186597,
-      "forks": 46087,
+      "stars": 186689,
+      "forks": 46046,
       "language": "Python",
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "updated_at": "2026-08-14T01:44:13Z",
+      "updated_at": "2026-08-21T00:22:16Z",
       "created_at": "2023-03-16T09:21:07Z",
       "topics": [
         "agentic-ai",
@@ -725,28 +725,36 @@
         "openai",
         "python"
       ],
-      "open_issues": 515
+      "open_issues": 508
     },
     {
-      "name": "jackfrued/Python-100-Days",
-      "description": "Python - 100天从新手到大师",
-      "stars": 185180,
-      "forks": 55697,
-      "language": "Jupyter Notebook",
-      "url": "https://github.com/jackfrued/Python-100-Days",
-      "updated_at": "2026-08-14T01:49:09Z",
-      "created_at": "2018-03-01T16:05:52Z",
-      "topics": [],
-      "open_issues": 705
+      "name": "yt-dlp/yt-dlp",
+      "description": "A feature-rich command-line audio/video downloader",
+      "stars": 185886,
+      "forks": 16023,
+      "language": "Python",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "updated_at": "2026-08-21T01:09:15Z",
+      "created_at": "2020-10-26T04:22:55Z",
+      "topics": [
+        "cli",
+        "downloader",
+        "python",
+        "sponsorblock",
+        "youtube-dl",
+        "youtube-downloader",
+        "yt-dlp"
+      ],
+      "open_issues": 2591
     },
     {
       "name": "CyC2018/CS-Notes",
       "description": ":books: 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计",
-      "stars": 185049,
-      "forks": 50785,
+      "stars": 185523,
+      "forks": 50781,
       "language": "Unknown",
       "url": "https://github.com/CyC2018/CS-Notes",
-      "updated_at": "2026-08-14T01:22:33Z",
+      "updated_at": "2026-08-21T00:24:24Z",
       "created_at": "2018-02-13T14:56:24Z",
       "topics": [
         "algorithm",
@@ -761,13 +769,25 @@
       "open_issues": 196
     },
     {
+      "name": "jackfrued/Python-100-Days",
+      "description": "Python - 100天从新手到大师",
+      "stars": 185455,
+      "forks": 55692,
+      "language": "Jupyter Notebook",
+      "url": "https://github.com/jackfrued/Python-100-Days",
+      "updated_at": "2026-08-21T01:00:18Z",
+      "created_at": "2018-03-01T16:05:52Z",
+      "topics": [],
+      "open_issues": 704
+    },
+    {
       "name": "getify/You-Dont-Know-JS",
       "description": "A book series (2 published editions) on the JS language.",
-      "stars": 184658,
-      "forks": 33442,
+      "stars": 184702,
+      "forks": 33436,
       "language": "Unknown",
       "url": "https://github.com/getify/You-Dont-Know-JS",
-      "updated_at": "2026-08-14T01:20:07Z",
+      "updated_at": "2026-08-20T21:50:40Z",
       "created_at": "2013-11-16T02:37:24Z",
       "topics": [
         "async",
@@ -787,33 +807,13 @@
       "open_issues": 2
     },
     {
-      "name": "yt-dlp/yt-dlp",
-      "description": "A feature-rich command-line audio/video downloader",
-      "stars": 184318,
-      "forks": 15865,
-      "language": "Python",
-      "url": "https://github.com/yt-dlp/yt-dlp",
-      "updated_at": "2026-08-14T01:50:58Z",
-      "created_at": "2020-10-26T04:22:55Z",
-      "topics": [
-        "cli",
-        "downloader",
-        "python",
-        "sponsorblock",
-        "youtube-dl",
-        "youtube-downloader",
-        "yt-dlp"
-      ],
-      "open_issues": 2606
-    },
-    {
       "name": "avelino/awesome-go",
       "description": "A curated list of awesome Go frameworks, libraries and software",
-      "stars": 180996,
-      "forks": 13487,
+      "stars": 181722,
+      "forks": 13504,
       "language": "Go",
       "url": "https://github.com/avelino/awesome-go",
-      "updated_at": "2026-08-14T01:29:21Z",
+      "updated_at": "2026-08-21T01:10:06Z",
       "created_at": "2014-07-06T13:42:15Z",
       "topics": [
         "awesome",
@@ -823,16 +823,16 @@
         "golang-library",
         "hacktoberfest"
       ],
-      "open_issues": 209
+      "open_issues": 214
     },
     {
       "name": "ollama/ollama",
       "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-      "stars": 178487,
-      "forks": 17394,
+      "stars": 179064,
+      "forks": 17487,
       "language": "Go",
       "url": "https://github.com/ollama/ollama",
-      "updated_at": "2026-08-14T01:50:04Z",
+      "updated_at": "2026-08-21T01:01:43Z",
       "created_at": "2023-06-26T19:39:32Z",
       "topics": [
         "deepseek",
@@ -851,16 +851,16 @@
         "ollama",
         "qwen"
       ],
-      "open_issues": 3672
+      "open_issues": 3761
     },
     {
       "name": "flutter/flutter",
       "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
-      "stars": 178389,
-      "forks": 30967,
+      "stars": 178532,
+      "forks": 30980,
       "language": "Dart",
       "url": "https://github.com/flutter/flutter",
-      "updated_at": "2026-08-14T01:38:34Z",
+      "updated_at": "2026-08-21T00:46:16Z",
       "created_at": "2015-03-06T22:54:58Z",
       "topics": [
         "android",
@@ -883,51 +883,31 @@
         "web-framework",
         "windows"
       ],
-      "open_issues": 13130
+      "open_issues": 13141
     },
     {
       "name": "github/gitignore",
       "description": "A collection of useful .gitignore templates",
-      "stars": 175281,
-      "forks": 82283,
+      "stars": 175376,
+      "forks": 82260,
       "language": "Unknown",
       "url": "https://github.com/github/gitignore",
-      "updated_at": "2026-08-14T00:16:34Z",
+      "updated_at": "2026-08-20T23:23:51Z",
       "created_at": "2010-11-08T20:17:14Z",
       "topics": [
         "git",
         "gitignore"
       ],
-      "open_issues": 83
-    },
-    {
-      "name": "twbs/bootstrap",
-      "description": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",
-      "stars": 174577,
-      "forks": 78677,
-      "language": "MDX",
-      "url": "https://github.com/twbs/bootstrap",
-      "updated_at": "2026-08-14T01:45:57Z",
-      "created_at": "2011-07-29T21:19:00Z",
-      "topics": [
-        "bootstrap",
-        "css",
-        "css-framework",
-        "html",
-        "javascript",
-        "sass",
-        "scss"
-      ],
-      "open_issues": 230
+      "open_issues": 84
     },
     {
       "name": "microsoft/markitdown",
       "description": "Python tool for converting files and office documents to Markdown.",
-      "stars": 173601,
-      "forks": 12675,
+      "stars": 174947,
+      "forks": 12786,
       "language": "Python",
       "url": "https://github.com/microsoft/markitdown",
-      "updated_at": "2026-08-14T01:52:06Z",
+      "updated_at": "2026-08-21T01:06:57Z",
       "created_at": "2024-11-13T19:56:40Z",
       "topics": [
         "autogen",
@@ -938,16 +918,53 @@
         "openai",
         "pdf"
       ],
-      "open_issues": 857
+      "open_issues": 875
+    },
+    {
+      "name": "deepseek-ai/deepseek-harness",
+      "description": "DeepSeek Harness: Everything is a Plugin.",
+      "stars": 174657,
+      "forks": 18879,
+      "language": "TypeScript",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "updated_at": "2026-08-21T01:14:38Z",
+      "created_at": "2026-08-13T11:56:32Z",
+      "topics": [
+        "ai-agents",
+        "cordis",
+        "dsh",
+        "dsh-plugin"
+      ],
+      "open_issues": 0
+    },
+    {
+      "name": "twbs/bootstrap",
+      "description": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",
+      "stars": 174619,
+      "forks": 78655,
+      "language": "MDX",
+      "url": "https://github.com/twbs/bootstrap",
+      "updated_at": "2026-08-21T01:14:38Z",
+      "created_at": "2011-07-29T21:19:00Z",
+      "topics": [
+        "bootstrap",
+        "css",
+        "css-framework",
+        "html",
+        "javascript",
+        "sass",
+        "scss"
+      ],
+      "open_issues": 234
     },
     {
       "name": "521xueweihan/HelloGitHub",
       "description": ":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",
-      "stars": 170748,
-      "forks": 12588,
+      "stars": 171982,
+      "forks": 12624,
       "language": "Python",
       "url": "https://github.com/521xueweihan/HelloGitHub",
-      "updated_at": "2026-08-14T01:37:37Z",
+      "updated_at": "2026-08-21T01:04:17Z",
       "created_at": "2016-05-04T06:24:11Z",
       "topics": [
         "awesome",
@@ -955,61 +972,30 @@
         "hellogithub",
         "python"
       ],
-      "open_issues": 588
+      "open_issues": 617
     },
     {
       "name": "anthropics/skills",
       "description": "Public repository for Agent Skills",
-      "stars": 169060,
-      "forks": 20129,
+      "stars": 170693,
+      "forks": 20296,
       "language": "Python",
       "url": "https://github.com/anthropics/skills",
-      "updated_at": "2026-08-14T01:53:09Z",
+      "updated_at": "2026-08-21T01:13:47Z",
       "created_at": "2025-09-22T15:53:31Z",
       "topics": [
         "agent-skills"
       ],
-      "open_issues": 1086
-    },
-    {
-      "name": "f/prompts.chat",
-      "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
-      "stars": 167098,
-      "forks": 21567,
-      "language": "HTML",
-      "url": "https://github.com/f/prompts.chat",
-      "updated_at": "2026-08-14T01:47:32Z",
-      "created_at": "2022-12-05T13:54:13Z",
-      "topics": [
-        "ai",
-        "artificial-intelligence",
-        "awesome-list",
-        "chatgpt",
-        "chatgpt-prompts",
-        "claude",
-        "gemini",
-        "gpt",
-        "gpt-4",
-        "llm",
-        "machine-learning",
-        "nextjs",
-        "open-source",
-        "openai",
-        "prompt-engineering",
-        "prompts",
-        "prompts-chat",
-        "typescript"
-      ],
-      "open_issues": 65
+      "open_issues": 1128
     },
     {
       "name": "firecrawl/firecrawl",
       "description": "The context API to search, scrape, and interact with the web at scale. 🔥",
-      "stars": 166996,
-      "forks": 9380,
+      "stars": 170111,
+      "forks": 9474,
       "language": "TypeScript",
       "url": "https://github.com/firecrawl/firecrawl",
-      "updated_at": "2026-08-14T01:47:56Z",
+      "updated_at": "2026-08-21T01:12:27Z",
       "created_at": "2024-04-15T21:02:29Z",
       "topics": [
         "ai",
@@ -1032,16 +1018,47 @@
         "web-search",
         "webscraping"
       ],
-      "open_issues": 508
+      "open_issues": 540
+    },
+    {
+      "name": "f/prompts.chat",
+      "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "stars": 167654,
+      "forks": 21644,
+      "language": "HTML",
+      "url": "https://github.com/f/prompts.chat",
+      "updated_at": "2026-08-21T01:11:03Z",
+      "created_at": "2022-12-05T13:54:13Z",
+      "topics": [
+        "ai",
+        "artificial-intelligence",
+        "awesome-list",
+        "chatgpt",
+        "chatgpt-prompts",
+        "claude",
+        "gemini",
+        "gpt",
+        "gpt-4",
+        "llm",
+        "machine-learning",
+        "nextjs",
+        "open-source",
+        "openai",
+        "prompt-engineering",
+        "prompts",
+        "prompts-chat",
+        "typescript"
+      ],
+      "open_issues": 66
     },
     {
       "name": "AUTOMATIC1111/stable-diffusion-webui",
       "description": "Stable Diffusion web UI",
-      "stars": 164514,
-      "forks": 30563,
+      "stars": 164590,
+      "forks": 30548,
       "language": "Python",
       "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
-      "updated_at": "2026-08-14T01:35:39Z",
+      "updated_at": "2026-08-21T00:54:30Z",
       "created_at": "2022-08-22T14:05:26Z",
       "topics": [
         "ai",
@@ -1061,39 +1078,7 @@
         "upscaling",
         "web"
       ],
-      "open_issues": 2502
-    },
-    {
-      "name": "huggingface/transformers",
-      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
-      "stars": 164079,
-      "forks": 34241,
-      "language": "Python",
-      "url": "https://github.com/huggingface/transformers",
-      "updated_at": "2026-08-14T00:19:27Z",
-      "created_at": "2018-10-29T13:56:00Z",
-      "topics": [
-        "audio",
-        "deep-learning",
-        "deepseek",
-        "gemma",
-        "glm",
-        "hacktoberfest",
-        "llm",
-        "machine-learning",
-        "model-hub",
-        "natural-language-processing",
-        "nlp",
-        "pretrained-models",
-        "python",
-        "pytorch",
-        "pytorch-transformers",
-        "qwen",
-        "speech-recognition",
-        "transformer",
-        "vlm"
-      ],
-      "open_issues": 2389
+      "open_issues": 2501
     }
   ],
   "categories": {
@@ -1101,11 +1086,11 @@
       {
         "name": "freeCodeCamp/freeCodeCamp",
         "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
-        "stars": 453970,
-        "forks": 45960,
+        "stars": 454372,
+        "forks": 46016,
         "language": "TypeScript",
         "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-        "updated_at": "2026-08-14T01:51:59Z",
+        "updated_at": "2026-08-21T00:51:55Z",
         "created_at": "2014-12-24T17:49:19Z",
         "topics": [
           "careers",
@@ -1127,13 +1112,39 @@
         "open_issues": 275
       },
       {
+        "name": "donnemartin/system-design-primer",
+        "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
+        "stars": 365121,
+        "forks": 57979,
+        "language": "Python",
+        "url": "https://github.com/donnemartin/system-design-primer",
+        "updated_at": "2026-08-21T01:11:56Z",
+        "created_at": "2017-02-26T16:15:28Z",
+        "topics": [
+          "design",
+          "design-patterns",
+          "design-system",
+          "development",
+          "interview",
+          "interview-practice",
+          "interview-questions",
+          "programming",
+          "python",
+          "system",
+          "web",
+          "web-application",
+          "webapp"
+        ],
+        "open_issues": 608
+      },
+      {
         "name": "nilbuild/developer-roadmap",
         "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
-        "stars": 364359,
-        "forks": 44782,
+        "stars": 365019,
+        "forks": 44820,
         "language": "TypeScript",
         "url": "https://github.com/nilbuild/developer-roadmap",
-        "updated_at": "2026-08-14T01:24:22Z",
+        "updated_at": "2026-08-21T01:04:48Z",
         "created_at": "2017-03-15T13:45:52Z",
         "topics": [
           "angular-roadmap",
@@ -1155,42 +1166,16 @@
           "software-architect-roadmap",
           "vue-roadmap"
         ],
-        "open_issues": 10
-      },
-      {
-        "name": "donnemartin/system-design-primer",
-        "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
-        "stars": 363660,
-        "forks": 57828,
-        "language": "Python",
-        "url": "https://github.com/donnemartin/system-design-primer",
-        "updated_at": "2026-08-14T01:43:39Z",
-        "created_at": "2017-02-26T16:15:28Z",
-        "topics": [
-          "design",
-          "design-patterns",
-          "design-system",
-          "development",
-          "interview",
-          "interview-practice",
-          "interview-questions",
-          "programming",
-          "python",
-          "system",
-          "web",
-          "web-application",
-          "webapp"
-        ],
-        "open_issues": 601
+        "open_issues": 7
       },
       {
         "name": "practical-tutorials/project-based-learning",
         "description": "Curated list of project-based tutorials",
-        "stars": 279081,
-        "forks": 35844,
+        "stars": 280139,
+        "forks": 35965,
         "language": "Python",
         "url": "https://github.com/practical-tutorials/project-based-learning",
-        "updated_at": "2026-08-14T01:52:27Z",
+        "updated_at": "2026-08-21T01:01:59Z",
         "created_at": "2017-04-12T05:07:46Z",
         "topics": [
           "beginner-project",
@@ -1202,16 +1187,16 @@
           "tutorial",
           "webdevelopment"
         ],
-        "open_issues": 267
+        "open_issues": 270
       },
       {
         "name": "react/react",
         "description": "The library for web and native user interfaces.",
-        "stars": 247238,
-        "forks": 51246,
+        "stars": 247447,
+        "forks": 51237,
         "language": "JavaScript",
         "url": "https://github.com/react/react",
-        "updated_at": "2026-08-14T01:39:54Z",
+        "updated_at": "2026-08-21T00:59:22Z",
         "created_at": "2013-05-24T16:15:54Z",
         "topics": [
           "declarative",
@@ -1221,16 +1206,16 @@
           "react",
           "ui"
         ],
-        "open_issues": 1245
+        "open_issues": 1253
       },
       {
         "name": "vuejs/vue",
         "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
-        "stars": 210234,
-        "forks": 33778,
+        "stars": 210249,
+        "forks": 33758,
         "language": "TypeScript",
         "url": "https://github.com/vuejs/vue",
-        "updated_at": "2026-08-14T01:23:07Z",
+        "updated_at": "2026-08-20T21:45:30Z",
         "created_at": "2013-07-29T03:24:51Z",
         "topics": [
           "framework",
@@ -1238,16 +1223,16 @@
           "javascript",
           "vue"
         ],
-        "open_issues": 637
+        "open_issues": 636
       },
       {
         "name": "flutter/flutter",
         "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
-        "stars": 178389,
-        "forks": 30967,
+        "stars": 178532,
+        "forks": 30980,
         "language": "Dart",
         "url": "https://github.com/flutter/flutter",
-        "updated_at": "2026-08-14T01:38:34Z",
+        "updated_at": "2026-08-21T00:46:16Z",
         "created_at": "2015-03-06T22:54:58Z",
         "topics": [
           "android",
@@ -1270,47 +1255,16 @@
           "web-framework",
           "windows"
         ],
-        "open_issues": 13130
-      },
-      {
-        "name": "f/prompts.chat",
-        "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
-        "stars": 167098,
-        "forks": 21567,
-        "language": "HTML",
-        "url": "https://github.com/f/prompts.chat",
-        "updated_at": "2026-08-14T01:47:32Z",
-        "created_at": "2022-12-05T13:54:13Z",
-        "topics": [
-          "ai",
-          "artificial-intelligence",
-          "awesome-list",
-          "chatgpt",
-          "chatgpt-prompts",
-          "claude",
-          "gemini",
-          "gpt",
-          "gpt-4",
-          "llm",
-          "machine-learning",
-          "nextjs",
-          "open-source",
-          "openai",
-          "prompt-engineering",
-          "prompts",
-          "prompts-chat",
-          "typescript"
-        ],
-        "open_issues": 65
+        "open_issues": 13141
       },
       {
         "name": "firecrawl/firecrawl",
         "description": "The context API to search, scrape, and interact with the web at scale. 🔥",
-        "stars": 166996,
-        "forks": 9380,
+        "stars": 170111,
+        "forks": 9474,
         "language": "TypeScript",
         "url": "https://github.com/firecrawl/firecrawl",
-        "updated_at": "2026-08-14T01:47:56Z",
+        "updated_at": "2026-08-21T01:12:27Z",
         "created_at": "2024-04-15T21:02:29Z",
         "topics": [
           "ai",
@@ -1333,16 +1287,47 @@
           "web-search",
           "webscraping"
         ],
-        "open_issues": 508
+        "open_issues": 540
+      },
+      {
+        "name": "f/prompts.chat",
+        "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+        "stars": 167654,
+        "forks": 21644,
+        "language": "HTML",
+        "url": "https://github.com/f/prompts.chat",
+        "updated_at": "2026-08-21T01:11:03Z",
+        "created_at": "2022-12-05T13:54:13Z",
+        "topics": [
+          "ai",
+          "artificial-intelligence",
+          "awesome-list",
+          "chatgpt",
+          "chatgpt-prompts",
+          "claude",
+          "gemini",
+          "gpt",
+          "gpt-4",
+          "llm",
+          "machine-learning",
+          "nextjs",
+          "open-source",
+          "openai",
+          "prompt-engineering",
+          "prompts",
+          "prompts-chat",
+          "typescript"
+        ],
+        "open_issues": 66
       },
       {
         "name": "AUTOMATIC1111/stable-diffusion-webui",
         "description": "Stable Diffusion web UI",
-        "stars": 164514,
-        "forks": 30563,
+        "stars": 164590,
+        "forks": 30548,
         "language": "Python",
         "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
-        "updated_at": "2026-08-14T01:35:39Z",
+        "updated_at": "2026-08-21T00:54:30Z",
         "created_at": "2022-08-22T14:05:26Z",
         "topics": [
           "ai",
@@ -1362,16 +1347,16 @@
           "upscaling",
           "web"
         ],
-        "open_issues": 2502
+        "open_issues": 2501
       },
       {
         "name": "langflow-ai/langflow",
         "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-        "stars": 153201,
-        "forks": 9855,
+        "stars": 153515,
+        "forks": 9901,
         "language": "Python",
         "url": "https://github.com/langflow-ai/langflow",
-        "updated_at": "2026-08-14T01:31:11Z",
+        "updated_at": "2026-08-21T01:08:53Z",
         "created_at": "2023-02-08T22:28:03Z",
         "topics": [
           "agents",
@@ -1381,16 +1366,16 @@
           "multiagent",
           "react-flow"
         ],
-        "open_issues": 965
+        "open_issues": 964
       },
       {
         "name": "langgenius/dify",
         "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
-        "stars": 152380,
-        "forks": 24049,
+        "stars": 153064,
+        "forks": 24166,
         "language": "TypeScript",
         "url": "https://github.com/langgenius/dify",
-        "updated_at": "2026-08-14T01:51:53Z",
+        "updated_at": "2026-08-21T01:10:54Z",
         "created_at": "2023-04-12T07:40:24Z",
         "topics": [
           "agent",
@@ -1414,16 +1399,16 @@
           "skills",
           "workflow"
         ],
-        "open_issues": 1085
+        "open_issues": 982
       },
       {
         "name": "open-webui/open-webui",
         "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-        "stars": 148722,
-        "forks": 21650,
+        "stars": 149397,
+        "forks": 21788,
         "language": "Python",
         "url": "https://github.com/open-webui/open-webui",
-        "updated_at": "2026-08-14T01:52:37Z",
+        "updated_at": "2026-08-21T01:10:43Z",
         "created_at": "2023-10-06T22:08:27Z",
         "topics": [
           "ai",
@@ -1442,16 +1427,16 @@
           "ui",
           "webui"
         ],
-        "open_issues": 380
+        "open_issues": 316
       },
       {
         "name": "vercel/next.js",
         "description": "The React Framework",
-        "stars": 141773,
-        "forks": 31751,
+        "stars": 141881,
+        "forks": 31769,
         "language": "JavaScript",
         "url": "https://github.com/vercel/next.js",
-        "updated_at": "2026-08-14T00:35:48Z",
+        "updated_at": "2026-08-21T00:26:48Z",
         "created_at": "2016-10-05T23:32:51Z",
         "topics": [
           "blog",
@@ -1469,16 +1454,16 @@
           "universal",
           "vercel"
         ],
-        "open_issues": 4270
+        "open_issues": 4016
       },
       {
         "name": "react/react-native",
         "description": "A framework for building native applications using React",
-        "stars": 126341,
+        "stars": 126370,
         "forks": 25218,
         "language": "C++",
         "url": "https://github.com/react/react-native",
-        "updated_at": "2026-08-14T01:02:03Z",
+        "updated_at": "2026-08-20T22:35:50Z",
         "created_at": "2015-01-09T18:10:16Z",
         "topics": [
           "android",
@@ -1490,16 +1475,16 @@
           "react",
           "react-native"
         ],
-        "open_issues": 1053
+        "open_issues": 1055
       },
       {
         "name": "shadcn-ui/ui",
         "description": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",
-        "stars": 121277,
-        "forks": 9850,
+        "stars": 121736,
+        "forks": 9923,
         "language": "TypeScript",
         "url": "https://github.com/shadcn-ui/ui",
-        "updated_at": "2026-08-14T01:52:40Z",
+        "updated_at": "2026-08-21T01:08:41Z",
         "created_at": "2023-01-04T12:43:27Z",
         "topics": [
           "base-ui",
@@ -1514,43 +1499,16 @@
           "ui",
           "vite"
         ],
-        "open_issues": 2281
-      },
-      {
-        "name": "justjavac/free-programming-books-zh_CN",
-        "description": ":books: 免费的计算机编程类中文书籍，欢迎投稿",
-        "stars": 118320,
-        "forks": 28247,
-        "language": "Unknown",
-        "url": "https://github.com/justjavac/free-programming-books-zh_CN",
-        "updated_at": "2026-08-14T01:03:01Z",
-        "created_at": "2013-11-04T01:59:19Z",
-        "topics": [
-          "android",
-          "angular",
-          "books",
-          "free",
-          "ios",
-          "javascript",
-          "kotlin",
-          "pdf",
-          "programming",
-          "python",
-          "react",
-          "react-native",
-          "swift",
-          "vue"
-        ],
-        "open_issues": 1
+        "open_issues": 2300
       },
       {
         "name": "nextlevelbuilder/ui-ux-pro-max-skill",
         "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
-        "stars": 116465,
-        "forks": 12514,
+        "stars": 118816,
+        "forks": 12766,
         "language": "Python",
         "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
-        "updated_at": "2026-08-14T01:52:25Z",
+        "updated_at": "2026-08-21T01:14:02Z",
         "created_at": "2025-11-30T11:36:31Z",
         "topics": [
           "ai-skills",
@@ -1573,16 +1531,43 @@
           "uikit",
           "windsurf-ai"
         ],
-        "open_issues": 80
+        "open_issues": 83
+      },
+      {
+        "name": "justjavac/free-programming-books-zh_CN",
+        "description": ":books: 免费的计算机编程类中文书籍，欢迎投稿",
+        "stars": 118415,
+        "forks": 28254,
+        "language": "Unknown",
+        "url": "https://github.com/justjavac/free-programming-books-zh_CN",
+        "updated_at": "2026-08-20T23:34:45Z",
+        "created_at": "2013-11-04T01:59:19Z",
+        "topics": [
+          "android",
+          "angular",
+          "books",
+          "free",
+          "ios",
+          "javascript",
+          "kotlin",
+          "pdf",
+          "programming",
+          "python",
+          "react",
+          "react-native",
+          "swift",
+          "vue"
+        ],
+        "open_issues": 3
       },
       {
         "name": "mrdoob/three.js",
         "description": "JavaScript 3D Library.",
-        "stars": 114501,
-        "forks": 36478,
+        "stars": 114638,
+        "forks": 36493,
         "language": "JavaScript",
         "url": "https://github.com/mrdoob/three.js",
-        "updated_at": "2026-08-14T01:40:06Z",
+        "updated_at": "2026-08-21T00:48:18Z",
         "created_at": "2010-03-23T18:58:01Z",
         "topics": [
           "3d",
@@ -1598,16 +1583,16 @@
           "webgpu",
           "webxr"
         ],
-        "open_issues": 373
+        "open_issues": 375
       },
       {
         "name": "immich-app/immich",
         "description": "High performance self-hosted photo and video management solution.",
-        "stars": 110439,
-        "forks": 6510,
+        "stars": 112173,
+        "forks": 6651,
         "language": "TypeScript",
         "url": "https://github.com/immich-app/immich",
-        "updated_at": "2026-08-14T01:41:28Z",
+        "updated_at": "2026-08-21T00:59:12Z",
         "created_at": "2022-02-03T15:56:27Z",
         "topics": [
           "backup-tool",
@@ -1627,16 +1612,16 @@
           "typescript",
           "videos"
         ],
-        "open_issues": 723
+        "open_issues": 711
       },
       {
         "name": "tauri-apps/tauri",
         "description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",
-        "stars": 110197,
-        "forks": 3865,
+        "stars": 110409,
+        "forks": 3869,
         "language": "Rust",
         "url": "https://github.com/tauri-apps/tauri",
-        "updated_at": "2026-08-14T01:36:57Z",
+        "updated_at": "2026-08-21T00:40:18Z",
         "created_at": "2019-07-13T09:09:37Z",
         "topics": [
           "desktop-app",
@@ -1654,11 +1639,11 @@
       {
         "name": "openclaw/openclaw",
         "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
-        "stars": 386209,
-        "forks": 81172,
+        "stars": 386916,
+        "forks": 81275,
         "language": "TypeScript",
         "url": "https://github.com/openclaw/openclaw",
-        "updated_at": "2026-08-14T01:52:02Z",
+        "updated_at": "2026-08-21T01:13:49Z",
         "created_at": "2025-11-24T10:16:47Z",
         "topics": [
           "ai",
@@ -1669,16 +1654,16 @@
           "own-your-data",
           "personal"
         ],
-        "open_issues": 5574
+        "open_issues": 5845
       },
       {
         "name": "nilbuild/developer-roadmap",
         "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
-        "stars": 364359,
-        "forks": 44782,
+        "stars": 365019,
+        "forks": 44820,
         "language": "TypeScript",
         "url": "https://github.com/nilbuild/developer-roadmap",
-        "updated_at": "2026-08-14T01:24:22Z",
+        "updated_at": "2026-08-21T01:04:48Z",
         "created_at": "2017-03-15T13:45:52Z",
         "topics": [
           "angular-roadmap",
@@ -1700,16 +1685,16 @@
           "software-architect-roadmap",
           "vue-roadmap"
         ],
-        "open_issues": 10
+        "open_issues": 7
       },
       {
         "name": "obra/superpowers",
         "description": "An agentic skills framework & software development methodology that works.",
-        "stars": 271769,
-        "forks": 24305,
+        "stars": 274959,
+        "forks": 24606,
         "language": "Shell",
         "url": "https://github.com/obra/superpowers",
-        "updated_at": "2026-08-14T01:52:41Z",
+        "updated_at": "2026-08-21T01:14:27Z",
         "created_at": "2025-10-09T19:45:18Z",
         "topics": [
           "ai",
@@ -1721,16 +1706,16 @@
           "subagent-driven-development",
           "superpowers"
         ],
-        "open_issues": 328
+        "open_issues": 297
       },
       {
         "name": "affaan-m/ECC",
         "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-        "stars": 239990,
-        "forks": 36430,
+        "stars": 241474,
+        "forks": 36617,
         "language": "JavaScript",
         "url": "https://github.com/affaan-m/ECC",
-        "updated_at": "2026-08-14T01:51:15Z",
+        "updated_at": "2026-08-21T01:14:17Z",
         "created_at": "2026-01-18T00:51:51Z",
         "topics": [
           "ai-agents",
@@ -1742,16 +1727,16 @@
           "mcp",
           "productivity"
         ],
-        "open_issues": 115
+        "open_issues": 146
       },
       {
         "name": "NousResearch/hermes-agent",
         "description": "The agent that grows with you",
-        "stars": 230158,
-        "forks": 45542,
+        "stars": 233558,
+        "forks": 46805,
         "language": "Python",
         "url": "https://github.com/NousResearch/hermes-agent",
-        "updated_at": "2026-08-14T01:52:30Z",
+        "updated_at": "2026-08-21T01:14:34Z",
         "created_at": "2025-07-22T22:22:28Z",
         "topics": [
           "ai",
@@ -1768,16 +1753,16 @@
           "nous-research",
           "openai"
         ],
-        "open_issues": 31863
+        "open_issues": 34012
       },
       {
         "name": "n8n-io/n8n",
         "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-        "stars": 200536,
-        "forks": 60120,
+        "stars": 201384,
+        "forks": 60250,
         "language": "TypeScript",
         "url": "https://github.com/n8n-io/n8n",
-        "updated_at": "2026-08-14T01:48:27Z",
+        "updated_at": "2026-08-21T01:11:41Z",
         "created_at": "2019-06-22T09:24:21Z",
         "topics": [
           "ai",
@@ -1801,16 +1786,16 @@
           "workflow",
           "workflow-automation"
         ],
-        "open_issues": 1303
+        "open_issues": 1069
       },
       {
         "name": "tensorflow/tensorflow",
         "description": "An Open Source Machine Learning Framework for Everyone",
-        "stars": 197006,
-        "forks": 76011,
+        "stars": 197108,
+        "forks": 76079,
         "language": "C++",
         "url": "https://github.com/tensorflow/tensorflow",
-        "updated_at": "2026-08-14T01:42:46Z",
+        "updated_at": "2026-08-20T22:05:55Z",
         "created_at": "2015-11-07T01:19:20Z",
         "topics": [
           "deep-learning",
@@ -1822,16 +1807,16 @@
           "python",
           "tensorflow"
         ],
-        "open_issues": 2862
+        "open_issues": 3138
       },
       {
         "name": "DigitalPlatDev/FreeDomain",
         "description": "Free domain registration and practical DNS learning resources for everyone.",
-        "stars": 192642,
-        "forks": 4102,
+        "stars": 194560,
+        "forks": 4182,
         "language": "Markdown",
         "url": "https://github.com/DigitalPlatDev/FreeDomain",
-        "updated_at": "2026-08-14T01:53:25Z",
+        "updated_at": "2026-08-21T01:00:19Z",
         "created_at": "2024-05-30T13:23:00Z",
         "topics": [
           "digitalplat",
@@ -1855,11 +1840,11 @@
       {
         "name": "Significant-Gravitas/AutoGPT",
         "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-        "stars": 186597,
-        "forks": 46087,
+        "stars": 186689,
+        "forks": 46046,
         "language": "Python",
         "url": "https://github.com/Significant-Gravitas/AutoGPT",
-        "updated_at": "2026-08-14T01:44:13Z",
+        "updated_at": "2026-08-21T00:22:16Z",
         "created_at": "2023-03-16T09:21:07Z",
         "topics": [
           "agentic-ai",
@@ -1874,16 +1859,16 @@
           "openai",
           "python"
         ],
-        "open_issues": 515
+        "open_issues": 508
       },
       {
         "name": "getify/You-Dont-Know-JS",
         "description": "A book series (2 published editions) on the JS language.",
-        "stars": 184658,
-        "forks": 33442,
+        "stars": 184702,
+        "forks": 33436,
         "language": "Unknown",
         "url": "https://github.com/getify/You-Dont-Know-JS",
-        "updated_at": "2026-08-14T01:20:07Z",
+        "updated_at": "2026-08-20T21:50:40Z",
         "created_at": "2013-11-16T02:37:24Z",
         "topics": [
           "async",
@@ -1905,11 +1890,11 @@
       {
         "name": "ollama/ollama",
         "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-        "stars": 178487,
-        "forks": 17394,
+        "stars": 179064,
+        "forks": 17487,
         "language": "Go",
         "url": "https://github.com/ollama/ollama",
-        "updated_at": "2026-08-14T01:50:04Z",
+        "updated_at": "2026-08-21T01:01:43Z",
         "created_at": "2023-06-26T19:39:32Z",
         "topics": [
           "deepseek",
@@ -1928,16 +1913,16 @@
           "ollama",
           "qwen"
         ],
-        "open_issues": 3672
+        "open_issues": 3761
       },
       {
         "name": "microsoft/markitdown",
         "description": "Python tool for converting files and office documents to Markdown.",
-        "stars": 173601,
-        "forks": 12675,
+        "stars": 174947,
+        "forks": 12786,
         "language": "Python",
         "url": "https://github.com/microsoft/markitdown",
-        "updated_at": "2026-08-14T01:52:06Z",
+        "updated_at": "2026-08-21T01:06:57Z",
         "created_at": "2024-11-13T19:56:40Z",
         "topics": [
           "autogen",
@@ -1948,47 +1933,33 @@
           "openai",
           "pdf"
         ],
-        "open_issues": 857
+        "open_issues": 875
       },
       {
-        "name": "f/prompts.chat",
-        "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
-        "stars": 167098,
-        "forks": 21567,
-        "language": "HTML",
-        "url": "https://github.com/f/prompts.chat",
-        "updated_at": "2026-08-14T01:47:32Z",
-        "created_at": "2022-12-05T13:54:13Z",
+        "name": "deepseek-ai/deepseek-harness",
+        "description": "DeepSeek Harness: Everything is a Plugin.",
+        "stars": 174657,
+        "forks": 18879,
+        "language": "TypeScript",
+        "url": "https://github.com/deepseek-ai/deepseek-harness",
+        "updated_at": "2026-08-21T01:14:38Z",
+        "created_at": "2026-08-13T11:56:32Z",
         "topics": [
-          "ai",
-          "artificial-intelligence",
-          "awesome-list",
-          "chatgpt",
-          "chatgpt-prompts",
-          "claude",
-          "gemini",
-          "gpt",
-          "gpt-4",
-          "llm",
-          "machine-learning",
-          "nextjs",
-          "open-source",
-          "openai",
-          "prompt-engineering",
-          "prompts",
-          "prompts-chat",
-          "typescript"
+          "ai-agents",
+          "cordis",
+          "dsh",
+          "dsh-plugin"
         ],
-        "open_issues": 65
+        "open_issues": 0
       },
       {
         "name": "firecrawl/firecrawl",
         "description": "The context API to search, scrape, and interact with the web at scale. 🔥",
-        "stars": 166996,
-        "forks": 9380,
+        "stars": 170111,
+        "forks": 9474,
         "language": "TypeScript",
         "url": "https://github.com/firecrawl/firecrawl",
-        "updated_at": "2026-08-14T01:47:56Z",
+        "updated_at": "2026-08-21T01:12:27Z",
         "created_at": "2024-04-15T21:02:29Z",
         "topics": [
           "ai",
@@ -2011,16 +1982,47 @@
           "web-search",
           "webscraping"
         ],
-        "open_issues": 508
+        "open_issues": 540
+      },
+      {
+        "name": "f/prompts.chat",
+        "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+        "stars": 167654,
+        "forks": 21644,
+        "language": "HTML",
+        "url": "https://github.com/f/prompts.chat",
+        "updated_at": "2026-08-21T01:11:03Z",
+        "created_at": "2022-12-05T13:54:13Z",
+        "topics": [
+          "ai",
+          "artificial-intelligence",
+          "awesome-list",
+          "chatgpt",
+          "chatgpt-prompts",
+          "claude",
+          "gemini",
+          "gpt",
+          "gpt-4",
+          "llm",
+          "machine-learning",
+          "nextjs",
+          "open-source",
+          "openai",
+          "prompt-engineering",
+          "prompts",
+          "prompts-chat",
+          "typescript"
+        ],
+        "open_issues": 66
       },
       {
         "name": "AUTOMATIC1111/stable-diffusion-webui",
         "description": "Stable Diffusion web UI",
-        "stars": 164514,
-        "forks": 30563,
+        "stars": 164590,
+        "forks": 30548,
         "language": "Python",
         "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
-        "updated_at": "2026-08-14T01:35:39Z",
+        "updated_at": "2026-08-21T00:54:30Z",
         "created_at": "2022-08-22T14:05:26Z",
         "topics": [
           "ai",
@@ -2040,16 +2042,16 @@
           "upscaling",
           "web"
         ],
-        "open_issues": 2502
+        "open_issues": 2501
       },
       {
         "name": "huggingface/transformers",
         "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
-        "stars": 164079,
-        "forks": 34241,
+        "stars": 164286,
+        "forks": 34301,
         "language": "Python",
         "url": "https://github.com/huggingface/transformers",
-        "updated_at": "2026-08-14T00:19:27Z",
+        "updated_at": "2026-08-21T00:43:31Z",
         "created_at": "2018-10-29T13:56:00Z",
         "topics": [
           "audio",
@@ -2072,16 +2074,16 @@
           "transformer",
           "vlm"
         ],
-        "open_issues": 2389
+        "open_issues": 2398
       },
       {
         "name": "Snailclimb/JavaGuide",
         "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
-        "stars": 157772,
-        "forks": 46177,
+        "stars": 157909,
+        "forks": 46170,
         "language": "JavaScript",
         "url": "https://github.com/Snailclimb/JavaGuide",
-        "updated_at": "2026-08-14T01:40:09Z",
+        "updated_at": "2026-08-20T23:11:09Z",
         "created_at": "2018-05-07T13:27:00Z",
         "topics": [
           "agent",
@@ -2098,16 +2100,16 @@
           "springai",
           "system-design"
         ],
-        "open_issues": 58
+        "open_issues": 59
       },
       {
         "name": "langflow-ai/langflow",
         "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-        "stars": 153201,
-        "forks": 9855,
+        "stars": 153515,
+        "forks": 9901,
         "language": "Python",
         "url": "https://github.com/langflow-ai/langflow",
-        "updated_at": "2026-08-14T01:31:11Z",
+        "updated_at": "2026-08-21T01:08:53Z",
         "created_at": "2023-02-08T22:28:03Z",
         "topics": [
           "agents",
@@ -2117,16 +2119,16 @@
           "multiagent",
           "react-flow"
         ],
-        "open_issues": 965
+        "open_issues": 964
       },
       {
         "name": "langgenius/dify",
         "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
-        "stars": 152380,
-        "forks": 24049,
+        "stars": 153064,
+        "forks": 24166,
         "language": "TypeScript",
         "url": "https://github.com/langgenius/dify",
-        "updated_at": "2026-08-14T01:51:53Z",
+        "updated_at": "2026-08-21T01:10:54Z",
         "created_at": "2023-04-12T07:40:24Z",
         "topics": [
           "agent",
@@ -2150,16 +2152,16 @@
           "skills",
           "workflow"
         ],
-        "open_issues": 1085
+        "open_issues": 982
       },
       {
         "name": "open-webui/open-webui",
         "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-        "stars": 148722,
-        "forks": 21650,
+        "stars": 149397,
+        "forks": 21788,
         "language": "Python",
         "url": "https://github.com/open-webui/open-webui",
-        "updated_at": "2026-08-14T01:52:37Z",
+        "updated_at": "2026-08-21T01:10:43Z",
         "created_at": "2023-10-06T22:08:27Z",
         "topics": [
           "ai",
@@ -2178,16 +2180,16 @@
           "ui",
           "webui"
         ],
-        "open_issues": 380
+        "open_issues": 316
       },
       {
         "name": "langchain-ai/langchain",
         "description": "The agent engineering platform.",
-        "stars": 144191,
-        "forks": 24007,
+        "stars": 144661,
+        "forks": 24102,
         "language": "Python",
         "url": "https://github.com/langchain-ai/langchain",
-        "updated_at": "2026-08-14T01:34:42Z",
+        "updated_at": "2026-08-21T01:14:24Z",
         "created_at": "2022-10-17T02:58:36Z",
         "topics": [
           "agents",
@@ -2211,16 +2213,16 @@
           "rag",
           "typescript"
         ],
-        "open_issues": 410
+        "open_issues": 412
       },
       {
         "name": "x1xhlol/system-prompts-and-models-of-ai-tools",
         "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
-        "stars": 142810,
-        "forks": 34843,
+        "stars": 142953,
+        "forks": 34837,
         "language": "Unknown",
         "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
-        "updated_at": "2026-08-14T01:27:22Z",
+        "updated_at": "2026-08-21T01:01:45Z",
         "created_at": "2025-03-05T16:38:29Z",
         "topics": [
           "ai",
@@ -2244,16 +2246,16 @@
           "windsurf",
           "windsurf-ai"
         ],
-        "open_issues": 159
+        "open_issues": 160
       },
       {
         "name": "Shubhamsaboo/awesome-llm-apps",
         "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-        "stars": 132517,
-        "forks": 19495,
+        "stars": 133383,
+        "forks": 19626,
         "language": "Python",
         "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-        "updated_at": "2026-08-14T01:51:34Z",
+        "updated_at": "2026-08-21T00:56:17Z",
         "created_at": "2024-04-29T05:30:25Z",
         "topics": [
           "agents",
@@ -2261,16 +2263,16 @@
           "python",
           "rag"
         ],
-        "open_issues": 13
+        "open_issues": 14
       },
       {
         "name": "github/spec-kit",
         "description": "💫 Toolkit to help you get started with Spec-Driven Development",
-        "stars": 127504,
-        "forks": 11395,
+        "stars": 130524,
+        "forks": 11717,
         "language": "Python",
         "url": "https://github.com/github/spec-kit",
-        "updated_at": "2026-08-14T01:53:19Z",
+        "updated_at": "2026-08-21T01:05:43Z",
         "created_at": "2025-08-21T22:54:31Z",
         "topics": [
           "ai",
@@ -2281,16 +2283,16 @@
           "spec",
           "spec-driven"
         ],
-        "open_issues": 314
+        "open_issues": 340
       },
       {
         "name": "Comfy-Org/ComfyUI",
         "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
-        "stars": 127371,
-        "forks": 14993,
+        "stars": 128660,
+        "forks": 15174,
         "language": "Python",
         "url": "https://github.com/Comfy-Org/ComfyUI",
-        "updated_at": "2026-08-14T01:51:22Z",
+        "updated_at": "2026-08-21T01:13:20Z",
         "created_at": "2023-01-17T03:15:56Z",
         "topics": [
           "ai",
@@ -2300,16 +2302,16 @@
           "pytorch",
           "stable-diffusion"
         ],
-        "open_issues": 4573
+        "open_issues": 4655
       },
       {
         "name": "farion1231/cc-switch",
         "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
-        "stars": 127040,
-        "forks": 8676,
+        "stars": 128511,
+        "forks": 8791,
         "language": "Rust",
         "url": "https://github.com/farion1231/cc-switch",
-        "updated_at": "2026-08-14T01:53:18Z",
+        "updated_at": "2026-08-21T01:11:19Z",
         "created_at": "2025-08-04T14:16:16Z",
         "topics": [
           "ai-tools",
@@ -2333,16 +2335,16 @@
           "typescript",
           "wsl-support"
         ],
-        "open_issues": 2175
+        "open_issues": 2309
       },
       {
         "name": "kubernetes/kubernetes",
         "description": "Production-Grade Container Scheduling and Management",
-        "stars": 124496,
-        "forks": 43853,
+        "stars": 124630,
+        "forks": 43887,
         "language": "Go",
         "url": "https://github.com/kubernetes/kubernetes",
-        "updated_at": "2026-08-14T01:51:45Z",
+        "updated_at": "2026-08-20T22:04:38Z",
         "created_at": "2014-06-06T22:56:04Z",
         "topics": [
           "cncf",
@@ -2350,16 +2352,16 @@
           "go",
           "kubernetes"
         ],
-        "open_issues": 2882
+        "open_issues": 2983
       },
       {
         "name": "shadcn-ui/ui",
         "description": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",
-        "stars": 121277,
-        "forks": 9850,
+        "stars": 121736,
+        "forks": 9923,
         "language": "TypeScript",
         "url": "https://github.com/shadcn-ui/ui",
-        "updated_at": "2026-08-14T01:52:40Z",
+        "updated_at": "2026-08-21T01:08:41Z",
         "created_at": "2023-01-04T12:43:27Z",
         "topics": [
           "base-ui",
@@ -2374,43 +2376,16 @@
           "ui",
           "vite"
         ],
-        "open_issues": 2281
-      },
-      {
-        "name": "microsoft/generative-ai-for-beginners",
-        "description": "21 Lessons, Get Started Building with Generative AI ",
-        "stars": 117699,
-        "forks": 62073,
-        "language": "Jupyter Notebook",
-        "url": "https://github.com/microsoft/generative-ai-for-beginners",
-        "updated_at": "2026-08-14T01:46:53Z",
-        "created_at": "2023-06-19T16:28:59Z",
-        "topics": [
-          "ai",
-          "azure",
-          "chatgpt",
-          "dall-e",
-          "generative-ai",
-          "generativeai",
-          "gpt",
-          "language-model",
-          "llms",
-          "microsoft-for-beginners",
-          "openai",
-          "prompt-engineering",
-          "semantic-search",
-          "transformers"
-        ],
-        "open_issues": 25
+        "open_issues": 2300
       },
       {
         "name": "nextlevelbuilder/ui-ux-pro-max-skill",
         "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
-        "stars": 116465,
-        "forks": 12514,
+        "stars": 118816,
+        "forks": 12766,
         "language": "Python",
         "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
-        "updated_at": "2026-08-14T01:52:25Z",
+        "updated_at": "2026-08-21T01:14:02Z",
         "created_at": "2025-11-30T11:36:31Z",
         "topics": [
           "ai-skills",
@@ -2433,38 +2408,72 @@
           "uikit",
           "windsurf-ai"
         ],
-        "open_issues": 80
+        "open_issues": 83
       },
       {
-        "name": "browser-use/browser-use",
-        "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
-        "stars": 109123,
-        "forks": 11984,
-        "language": "Python",
-        "url": "https://github.com/browser-use/browser-use",
-        "updated_at": "2026-08-14T01:50:22Z",
-        "created_at": "2024-10-31T16:00:56Z",
+        "name": "microsoft/generative-ai-for-beginners",
+        "description": "21 Lessons, Get Started Building with Generative AI ",
+        "stars": 118224,
+        "forks": 62322,
+        "language": "Jupyter Notebook",
+        "url": "https://github.com/microsoft/generative-ai-for-beginners",
+        "updated_at": "2026-08-21T01:03:41Z",
+        "created_at": "2023-06-19T16:28:59Z",
         "topics": [
-          "ai-agents",
-          "ai-tools",
-          "browser-automation",
-          "browser-use",
-          "llm",
-          "playwright",
-          "python"
+          "ai",
+          "azure",
+          "chatgpt",
+          "dall-e",
+          "generative-ai",
+          "generativeai",
+          "gpt",
+          "language-model",
+          "llms",
+          "microsoft-for-beginners",
+          "openai",
+          "prompt-engineering",
+          "semantic-search",
+          "transformers"
         ],
-        "open_issues": 354
+        "open_issues": 28
+      },
+      {
+        "name": "harry0703/MoneyPrinterTurbo",
+        "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+        "stars": 112965,
+        "forks": 17119,
+        "language": "Python",
+        "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+        "updated_at": "2026-08-21T01:14:36Z",
+        "created_at": "2024-03-11T02:57:34Z",
+        "topics": [
+          "ai-video-generator",
+          "content-creation",
+          "ffmpeg",
+          "instagram-reels",
+          "llm",
+          "python",
+          "short-video",
+          "subtitles",
+          "text-to-speech",
+          "tiktok",
+          "video-automation",
+          "video-workflow",
+          "workflow-automation",
+          "youtube-shorts"
+        ],
+        "open_issues": 43
       }
     ],
     "DevOps": [
       {
         "name": "nilbuild/developer-roadmap",
         "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
-        "stars": 364359,
-        "forks": 44782,
+        "stars": 365019,
+        "forks": 44820,
         "language": "TypeScript",
         "url": "https://github.com/nilbuild/developer-roadmap",
-        "updated_at": "2026-08-14T01:24:22Z",
+        "updated_at": "2026-08-21T01:04:48Z",
         "created_at": "2017-03-15T13:45:52Z",
         "topics": [
           "angular-roadmap",
@@ -2486,16 +2495,16 @@
           "software-architect-roadmap",
           "vue-roadmap"
         ],
-        "open_issues": 10
+        "open_issues": 7
       },
       {
         "name": "trimstray/the-book-of-secret-knowledge",
         "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
-        "stars": 238216,
-        "forks": 14104,
+        "stars": 239437,
+        "forks": 14167,
         "language": "Unknown",
         "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
-        "updated_at": "2026-08-14T01:49:55Z",
+        "updated_at": "2026-08-21T01:10:08Z",
         "created_at": "2018-06-23T10:43:14Z",
         "topics": [
           "awesome",
@@ -2518,16 +2527,16 @@
           "security-researchers",
           "sysops"
         ],
-        "open_issues": 163
+        "open_issues": 166
       },
       {
         "name": "DigitalPlatDev/FreeDomain",
         "description": "Free domain registration and practical DNS learning resources for everyone.",
-        "stars": 192642,
-        "forks": 4102,
+        "stars": 194560,
+        "forks": 4182,
         "language": "Markdown",
         "url": "https://github.com/DigitalPlatDev/FreeDomain",
-        "updated_at": "2026-08-14T01:53:25Z",
+        "updated_at": "2026-08-21T01:00:19Z",
         "created_at": "2024-05-30T13:23:00Z",
         "topics": [
           "digitalplat",
@@ -2551,11 +2560,11 @@
       {
         "name": "kubernetes/kubernetes",
         "description": "Production-Grade Container Scheduling and Management",
-        "stars": 124496,
-        "forks": 43853,
+        "stars": 124630,
+        "forks": 43887,
         "language": "Go",
         "url": "https://github.com/kubernetes/kubernetes",
-        "updated_at": "2026-08-14T01:51:45Z",
+        "updated_at": "2026-08-20T22:04:38Z",
         "created_at": "2014-06-06T22:56:04Z",
         "topics": [
           "cncf",
@@ -2563,18 +2572,18 @@
           "go",
           "kubernetes"
         ],
-        "open_issues": 2882
+        "open_issues": 2983
       }
     ],
     "Mobile": [
       {
         "name": "flutter/flutter",
         "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
-        "stars": 178389,
-        "forks": 30967,
+        "stars": 178532,
+        "forks": 30980,
         "language": "Dart",
         "url": "https://github.com/flutter/flutter",
-        "updated_at": "2026-08-14T01:38:34Z",
+        "updated_at": "2026-08-21T00:46:16Z",
         "created_at": "2015-03-06T22:54:58Z",
         "topics": [
           "android",
@@ -2597,16 +2606,16 @@
           "web-framework",
           "windows"
         ],
-        "open_issues": 13130
+        "open_issues": 13141
       },
       {
         "name": "Genymobile/scrcpy",
         "description": "Display and control your Android device",
-        "stars": 147578,
-        "forks": 13590,
+        "stars": 147988,
+        "forks": 13629,
         "language": "C",
         "url": "https://github.com/Genymobile/scrcpy",
-        "updated_at": "2026-08-14T00:47:41Z",
+        "updated_at": "2026-08-21T00:48:51Z",
         "created_at": "2017-11-21T18:00:27Z",
         "topics": [
           "android",
@@ -2618,16 +2627,16 @@
           "screen",
           "sdl2"
         ],
-        "open_issues": 2878
+        "open_issues": 2882
       },
       {
         "name": "react/react-native",
         "description": "A framework for building native applications using React",
-        "stars": 126341,
+        "stars": 126370,
         "forks": 25218,
         "language": "C++",
         "url": "https://github.com/react/react-native",
-        "updated_at": "2026-08-14T01:02:03Z",
+        "updated_at": "2026-08-20T22:35:50Z",
         "created_at": "2015-01-09T18:10:16Z",
         "topics": [
           "android",
@@ -2639,16 +2648,16 @@
           "react",
           "react-native"
         ],
-        "open_issues": 1053
+        "open_issues": 1055
       },
       {
         "name": "rustdesk/rustdesk",
         "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
-        "stars": 120358,
-        "forks": 18435,
+        "stars": 121365,
+        "forks": 18570,
         "language": "Rust",
         "url": "https://github.com/rustdesk/rustdesk",
-        "updated_at": "2026-08-14T01:36:23Z",
+        "updated_at": "2026-08-21T01:07:55Z",
         "created_at": "2020-09-28T15:36:08Z",
         "topics": [
           "android",
@@ -2671,65 +2680,16 @@
           "wayland",
           "windows"
         ],
-        "open_issues": 132
-      },
-      {
-        "name": "justjavac/free-programming-books-zh_CN",
-        "description": ":books: 免费的计算机编程类中文书籍，欢迎投稿",
-        "stars": 118320,
-        "forks": 28247,
-        "language": "Unknown",
-        "url": "https://github.com/justjavac/free-programming-books-zh_CN",
-        "updated_at": "2026-08-14T01:03:01Z",
-        "created_at": "2013-11-04T01:59:19Z",
-        "topics": [
-          "android",
-          "angular",
-          "books",
-          "free",
-          "ios",
-          "javascript",
-          "kotlin",
-          "pdf",
-          "programming",
-          "python",
-          "react",
-          "react-native",
-          "swift",
-          "vue"
-        ],
-        "open_issues": 1
-      },
-      {
-        "name": "Hack-with-Github/Awesome-Hacking",
-        "description": "A collection of various awesome lists for hackers, pentesters and security researchers",
-        "stars": 118250,
-        "forks": 10645,
-        "language": "Unknown",
-        "url": "https://github.com/Hack-with-Github/Awesome-Hacking",
-        "updated_at": "2026-08-14T01:49:11Z",
-        "created_at": "2016-03-30T15:47:10Z",
-        "topics": [
-          "android",
-          "awesome",
-          "bug-bounty",
-          "fuzzing",
-          "hacking",
-          "penetration-testing",
-          "pentesting-windows",
-          "reverse-engineering",
-          "security"
-        ],
-        "open_issues": 39
+        "open_issues": 130
       },
       {
         "name": "nextlevelbuilder/ui-ux-pro-max-skill",
         "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
-        "stars": 116465,
-        "forks": 12514,
+        "stars": 118816,
+        "forks": 12766,
         "language": "Python",
         "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
-        "updated_at": "2026-08-14T01:52:25Z",
+        "updated_at": "2026-08-21T01:14:02Z",
         "created_at": "2025-11-30T11:36:31Z",
         "topics": [
           "ai-skills",
@@ -2752,16 +2712,65 @@
           "uikit",
           "windsurf-ai"
         ],
-        "open_issues": 80
+        "open_issues": 83
+      },
+      {
+        "name": "Hack-with-Github/Awesome-Hacking",
+        "description": "A collection of various awesome lists for hackers, pentesters and security researchers",
+        "stars": 118708,
+        "forks": 10667,
+        "language": "Unknown",
+        "url": "https://github.com/Hack-with-Github/Awesome-Hacking",
+        "updated_at": "2026-08-21T00:15:42Z",
+        "created_at": "2016-03-30T15:47:10Z",
+        "topics": [
+          "android",
+          "awesome",
+          "bug-bounty",
+          "fuzzing",
+          "hacking",
+          "penetration-testing",
+          "pentesting-windows",
+          "reverse-engineering",
+          "security"
+        ],
+        "open_issues": 40
+      },
+      {
+        "name": "justjavac/free-programming-books-zh_CN",
+        "description": ":books: 免费的计算机编程类中文书籍，欢迎投稿",
+        "stars": 118415,
+        "forks": 28254,
+        "language": "Unknown",
+        "url": "https://github.com/justjavac/free-programming-books-zh_CN",
+        "updated_at": "2026-08-20T23:34:45Z",
+        "created_at": "2013-11-04T01:59:19Z",
+        "topics": [
+          "android",
+          "angular",
+          "books",
+          "free",
+          "ios",
+          "javascript",
+          "kotlin",
+          "pdf",
+          "programming",
+          "python",
+          "react",
+          "react-native",
+          "swift",
+          "vue"
+        ],
+        "open_issues": 3
       },
       {
         "name": "immich-app/immich",
         "description": "High performance self-hosted photo and video management solution.",
-        "stars": 110439,
-        "forks": 6510,
+        "stars": 112173,
+        "forks": 6651,
         "language": "TypeScript",
         "url": "https://github.com/immich-app/immich",
-        "updated_at": "2026-08-14T01:41:28Z",
+        "updated_at": "2026-08-21T00:59:12Z",
         "created_at": "2022-02-03T15:56:27Z",
         "topics": [
           "backup-tool",
@@ -2781,16 +2790,16 @@
           "typescript",
           "videos"
         ],
-        "open_issues": 723
+        "open_issues": 711
       },
       {
         "name": "tauri-apps/tauri",
         "description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",
-        "stars": 110197,
-        "forks": 3865,
+        "stars": 110409,
+        "forks": 3869,
         "language": "Rust",
         "url": "https://github.com/tauri-apps/tauri",
-        "updated_at": "2026-08-14T01:36:57Z",
+        "updated_at": "2026-08-21T00:40:18Z",
         "created_at": "2019-07-13T09:09:37Z",
         "topics": [
           "desktop-app",
@@ -2808,11 +2817,11 @@
       {
         "name": "Snailclimb/JavaGuide",
         "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
-        "stars": 157772,
-        "forks": 46177,
+        "stars": 157909,
+        "forks": 46170,
         "language": "JavaScript",
         "url": "https://github.com/Snailclimb/JavaGuide",
-        "updated_at": "2026-08-14T01:40:09Z",
+        "updated_at": "2026-08-20T23:11:09Z",
         "created_at": "2018-05-07T13:27:00Z",
         "topics": [
           "agent",
@@ -2829,120 +2838,120 @@
           "springai",
           "system-design"
         ],
-        "open_issues": 58
+        "open_issues": 59
       }
     ]
   },
   "hn_stories": [
     {
-      "id": 49289112,
-      "title": "Gemini 3.7 Flash",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-      "score": 619,
-      "author": "thisisauserid",
-      "time": 1786641802,
-      "descendants": 347,
+      "id": 49378957,
+      "title": "The August 17 outage, and the work ahead",
+      "url": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
+      "score": 303,
+      "author": "0xedb",
+      "time": 1787253744,
+      "descendants": 340,
       "type": "story",
-      "hn_url": "https://news.ycombinator.com/item?id=49289112"
+      "hn_url": "https://news.ycombinator.com/item?id=49378957"
     },
     {
-      "id": 49289844,
-      "title": "Accelerating GPT-5.6 Sol Ultrafast",
-      "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
-      "score": 423,
-      "author": "pr337h4m",
-      "time": 1786644602,
-      "descendants": 174,
+      "id": 49378243,
+      "title": "Consumer Rights Wiki",
+      "url": "https://consumerrights.wiki/w/Main_Page",
+      "score": 211,
+      "author": "gregsadetsky",
+      "time": 1787249991,
+      "descendants": 27,
       "type": "story",
-      "hn_url": "https://news.ycombinator.com/item?id=49289844"
+      "hn_url": "https://news.ycombinator.com/item?id=49378243"
     },
     {
-      "id": 49291268,
-      "title": "NP-Overrated",
-      "url": "https://gruhn.me/blog/2026-08-13/",
-      "score": 149,
-      "author": "theanonymousone",
-      "time": 1786652057,
-      "descendants": 91,
+      "id": 49347543,
+      "title": "I like 'em thick: an apology to my English teachers",
+      "url": "https://www.experimental-history.com/p/i-like-em-thick",
+      "score": 552,
+      "author": "Ariarule",
+      "time": 1787068252,
+      "descendants": 255,
       "type": "story",
-      "hn_url": "https://news.ycombinator.com/item?id=49291268"
+      "hn_url": "https://news.ycombinator.com/item?id=49347543"
     },
     {
-      "id": 49285244,
-      "title": "DeepSeek Harness developer preview",
-      "url": "https://deepseek.com/harness/en/",
-      "score": 559,
-      "author": "bjin",
-      "time": 1786625882,
-      "descendants": 244,
+      "id": 49379550,
+      "title": "Aaron Swartz was prosecuted for scraping, while Meta does it without consequence",
+      "url": "https://blog.curiousquail.com/im-upset-again-about-a-co-creator-of-rss-being-prosecuted-for-something-meta-is-doing-with-little-consequence/",
+      "score": 908,
+      "author": "speckx",
+      "time": 1787256446,
+      "descendants": 209,
       "type": "story",
-      "hn_url": "https://news.ycombinator.com/item?id=49285244"
+      "hn_url": "https://news.ycombinator.com/item?id=49379550"
     },
     {
-      "id": 49290299,
-      "title": "Understanding is the new bottleneck",
-      "url": "https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck",
-      "score": 206,
-      "author": "sebg",
-      "time": 1786646839,
-      "descendants": 114,
+      "id": 49372583,
+      "title": "AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint",
+      "url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
+      "score": 873,
+      "author": "emctech",
+      "time": 1787220532,
+      "descendants": 286,
       "type": "story",
-      "hn_url": "https://news.ycombinator.com/item?id=49290299"
+      "hn_url": "https://news.ycombinator.com/item?id=49372583"
     },
     {
-      "id": 49289465,
-      "title": "Donkey.bas is 45 Years Old – 131 line of Glory",
-      "url": "https://donkeybas.com/",
-      "score": 191,
-      "author": "jkrauska",
-      "time": 1786643150,
-      "descendants": 80,
+      "id": 49377853,
+      "title": "I should have loved biology (2020)",
+      "url": "https://jsomers.net/i-should-have-loved-biology/",
+      "score": 195,
+      "author": "tyre",
+      "time": 1787248202,
+      "descendants": 73,
       "type": "story",
-      "hn_url": "https://news.ycombinator.com/item?id=49289465"
+      "hn_url": "https://news.ycombinator.com/item?id=49377853"
     },
     {
-      "id": 49288889,
-      "title": "Mistral OCR 4.1",
-      "url": "https://docs.mistral.ai/models/ocr-4-1",
-      "score": 252,
-      "author": "spelk",
-      "time": 1786640712,
-      "descendants": 99,
+      "id": 49362689,
+      "title": "HTML Can Do That",
+      "url": "https://chrisburnell.com/html-can-do-that/",
+      "score": 561,
+      "author": "encyclopedism",
+      "time": 1787152296,
+      "descendants": 161,
       "type": "story",
-      "hn_url": "https://news.ycombinator.com/item?id=49288889"
+      "hn_url": "https://news.ycombinator.com/item?id=49362689"
     },
     {
-      "id": 49289512,
-      "title": "Choose Boring Technology (2015)",
-      "url": "https://mcfunley.com/choose-boring-technology",
-      "score": 254,
-      "author": "tosh",
-      "time": 1786643293,
-      "descendants": 136,
+      "id": 49374269,
+      "title": "Malicious Rust crate Arrayref runs a build-time payload",
+      "url": "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/",
+      "score": 391,
+      "author": "abhisek",
+      "time": 1787232192,
+      "descendants": 361,
       "type": "story",
-      "hn_url": "https://news.ycombinator.com/item?id=49289512"
+      "hn_url": "https://news.ycombinator.com/item?id=49374269"
     },
     {
-      "id": 49286341,
-      "title": "Spaghettifying DRAM",
-      "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
-      "score": 496,
-      "author": "matt_d",
-      "time": 1786630633,
-      "descendants": 138,
-      "type": "story",
-      "hn_url": "https://news.ycombinator.com/item?id=49286341"
-    },
-    {
-      "id": 49289532,
-      "title": "Where did the old web go? We followed 657,607 links to find out",
-      "url": "https://0.mk/blog/link-rot",
-      "score": 133,
-      "author": "tdx",
-      "time": 1786643358,
+      "id": 49378768,
+      "title": "Show HN: Huzzah – a novel approach to coding with AI",
+      "url": "https://www.danielvaughn.dev/posts/huzzah/",
+      "score": 216,
+      "author": "danielvaughn",
+      "time": 1787252736,
       "descendants": 115,
       "type": "story",
-      "hn_url": "https://news.ycombinator.com/item?id=49289532"
+      "hn_url": "https://news.ycombinator.com/item?id=49378768"
+    },
+    {
+      "id": 49368886,
+      "title": "CIA funding helped keep NeXT afloat in the 80s",
+      "url": "https://www.wsj.com/tech/steve-jobs-apple-next-cia-161b65f9?st=NWWds1&reflink=desktopwebshare_permalink",
+      "score": 329,
+      "author": "EwanG",
+      "time": 1787184901,
+      "descendants": 207,
+      "type": "story",
+      "hn_url": "https://news.ycombinator.com/item?id=49368886"
     }
   ],
   "total_repos": 50,
