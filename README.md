@@ -11,20 +11,20 @@ GitHub全体の人気OSS・注目プロジェクト・活発リポジトリを**
 
 ---
 
-## 📊 今日のトレンド (2026-09-09 03:20:53)
+## 📊 今日のトレンド (2026-09-10 03:19:46)
 
 | Rank | Repository | Stars | Forks | Language | Description |
 |------|------------|-------|-------|----------|-------------|
-| 1 | **[codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)** | ⭐ 546,081 | 🍴 51,394 | Markdown | Master programming by recreating your favorite technologies ... |
-| 2 | **[sindresorhus/awesome](https://github.com/sindresorhus/awesome)** | ⭐ 504,309 | 🍴 36,795 | Unknown | 😎 Awesome lists about all kinds of interesting topics [NOTE:... |
-| 3 | **[public-apis/public-apis](https://github.com/public-apis/public-apis)** | ⭐ 477,659 | 🍴 52,727 | Python | A collective list of free APIs... |
-| 4 | **[freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)** | ⭐ 455,239 | 🍴 46,151 | TypeScript | freeCodeCamp.org's open-source codebase and curriculum. Lear... |
-| 5 | **[EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)** | ⭐ 396,313 | 🍴 66,744 | Python | :books: Freely available programming books... |
-| 6 | **[openclaw/openclaw](https://github.com/openclaw/openclaw)** | ⭐ 389,261 | 🍴 81,800 | TypeScript | The AI that really does things. Any OS. Any Platform. The lo... |
-| 7 | **[donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)** | ⭐ 368,836 | 🍴 58,302 | Python | Learn how to design large-scale systems. Prep for the system... |
-| 8 | **[nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap)** | ⭐ 366,641 | 🍴 44,906 | TypeScript | Interactive roadmaps, guides and other educational content t... |
-| 9 | **[jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)** | ⭐ 360,607 | 🍴 84,804 | Unknown | A complete computer science study plan to become a software ... |
-| 10 | **[vinta/awesome-python](https://github.com/vinta/awesome-python)** | ⭐ 319,396 | 🍴 28,694 | Python | The definitive list that answers "I want to do X in Python, ... |
+| 1 | **[codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)** | ⭐ 546,263 | 🍴 51,406 | Markdown | Master programming by recreating your favorite technologies ... |
+| 2 | **[sindresorhus/awesome](https://github.com/sindresorhus/awesome)** | ⭐ 504,582 | 🍴 36,815 | Unknown | 😎 Awesome lists about all kinds of interesting topics [NOTE:... |
+| 3 | **[public-apis/public-apis](https://github.com/public-apis/public-apis)** | ⭐ 478,188 | 🍴 52,780 | Python | A collective list of free APIs... |
+| 4 | **[freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)** | ⭐ 455,223 | 🍴 46,148 | TypeScript | freeCodeCamp.org's open-source codebase and curriculum. Lear... |
+| 5 | **[EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)** | ⭐ 396,376 | 🍴 66,746 | Python | :books: Freely available programming books... |
+| 6 | **[openclaw/openclaw](https://github.com/openclaw/openclaw)** | ⭐ 389,318 | 🍴 81,817 | TypeScript | The AI that really does things. Any OS. Any Platform. The lo... |
+| 7 | **[donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)** | ⭐ 369,068 | 🍴 58,324 | Python | Learn how to design large-scale systems. Prep for the system... |
+| 8 | **[nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap)** | ⭐ 366,750 | 🍴 44,915 | TypeScript | Interactive roadmaps, guides and other educational content t... |
+| 9 | **[jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)** | ⭐ 360,654 | 🍴 84,818 | Unknown | A complete computer science study plan to become a software ... |
+| 10 | **[vinta/awesome-python](https://github.com/vinta/awesome-python)** | ⭐ 319,595 | 🍴 28,701 | Python | The definitive list that answers "I want to do X in Python, ... |
 
 ---
 
@@ -32,16 +32,16 @@ GitHub全体の人気OSS・注目プロジェクト・活発リポジトリを**
 
 | Rank | Title | Score | Comments |
 |------|-------|-------|----------|
-| 1 | **[Muse – Meta’s personal AI agent](https://news.ycombinator.com/item?id=49615537)** | 🔥 355 | 💬 364 |
-| 2 | **[How to build a printer](https://news.ycombinator.com/item?id=49617255)** | 🔥 171 | 💬 38 |
-| 3 | **[Large language models develop novel social biases through ad...](https://news.ycombinator.com/item?id=49617581)** | 🔥 107 | 💬 54 |
-| 4 | **[AlphaGenome Atlas: a high-resolution map of human DNA](https://news.ycombinator.com/item?id=49611251)** | 🔥 505 | 💬 117 |
-| 5 | **[DaVinci Resolve 21.1](https://news.ycombinator.com/item?id=49610181)** | 🔥 365 | 💬 161 |
-| 6 | **[On the Navier–Stokes Millennium Prize Problem](https://news.ycombinator.com/item?id=49613262)** | 🔥 1162 | 💬 998 |
-| 7 | **[Tao: Open math problems being non-renewably mined by AI](https://news.ycombinator.com/item?id=49616968)** | 🔥 195 | 💬 129 |
-| 8 | **[Benchmarking Qwen3.8 27B quantizations: 4-bit holds up, 1-bi...](https://news.ycombinator.com/item?id=49611128)** | 🔥 222 | 💬 109 |
-| 9 | **[I-have-ADHD: A skill to stop coding agents from burying the ...](https://news.ycombinator.com/item?id=49610631)** | 🔥 338 | 💬 261 |
-| 10 | **[Navier-Stokes – Tristan Buckmaster [pdf]](https://news.ycombinator.com/item?id=49605915)** | 🔥 1357 | 💬 579 |
+| 1 | **[iPhone Duo](https://news.ycombinator.com/item?id=49630931)** | 🔥 971 | 💬 1759 |
+| 2 | **[Shopify acquires Tailwind](https://news.ycombinator.com/item?id=49626190)** | 🔥 919 | 💬 367 |
+| 3 | **[What do Visa and Mastercard do? An intro to card networks](https://news.ycombinator.com/item?id=49614280)** | 🔥 407 | 💬 237 |
+| 4 | **[Growing proof that autonomous cars save lives](https://news.ycombinator.com/item?id=49629886)** | 🔥 251 | 💬 446 |
+| 5 | **[AirPods 5](https://news.ycombinator.com/item?id=49630253)** | 🔥 396 | 💬 317 |
+| 6 | **[No Man's Sky Cosmos](https://news.ycombinator.com/item?id=49628493)** | 🔥 314 | 💬 332 |
+| 7 | **[iPhone 18 Pro and iPhone 18 Pro Max](https://news.ycombinator.com/item?id=49630151)** | 🔥 300 | 💬 320 |
+| 8 | **[GPT-6 Astra, looped transformers, and hidden reasoning](https://news.ycombinator.com/item?id=49627370)** | 🔥 362 | 💬 128 |
+| 9 | **[Apple Watch Series 12](https://news.ycombinator.com/item?id=49630566)** | 🔥 228 | 💬 274 |
+| 10 | **[Desert Ant Labs: local, fast models that run on device](https://news.ycombinator.com/item?id=49624823)** | 🔥 410 | 💬 93 |
 
 ---
 
@@ -49,38 +49,38 @@ GitHub全体の人気OSS・注目プロジェクト・活発リポジトリを**
 
 ### Web
 
-- **[freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)** ⭐ 455,239
-- **[donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)** ⭐ 368,836
-- **[nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap)** ⭐ 366,641
-- **[practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning)** ⭐ 282,658
-- **[react/react](https://github.com/react/react)** ⭐ 249,670
+- **[freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)** ⭐ 455,223
+- **[donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)** ⭐ 369,068
+- **[nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap)** ⭐ 366,750
+- **[practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning)** ⭐ 282,793
+- **[react/react](https://github.com/react/react)** ⭐ 249,643
 
 ### AI/ML
 
-- **[openclaw/openclaw](https://github.com/openclaw/openclaw)** ⭐ 389,261
-- **[nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap)** ⭐ 366,641
-- **[obra/superpowers](https://github.com/obra/superpowers)** ⭐ 283,436
-- **[affaan-m/ECC](https://github.com/affaan-m/ECC)** ⭐ 254,404
-- **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)** ⭐ 243,498
+- **[openclaw/openclaw](https://github.com/openclaw/openclaw)** ⭐ 389,318
+- **[nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap)** ⭐ 366,750
+- **[obra/superpowers](https://github.com/obra/superpowers)** ⭐ 284,098
+- **[affaan-m/ECC](https://github.com/affaan-m/ECC)** ⭐ 255,258
+- **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)** ⭐ 243,896
 
 ### DevOps
 
-- **[nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap)** ⭐ 366,641
-- **[trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)** ⭐ 242,751
-- **[DigitalPlatDev/FreeDomain](https://github.com/DigitalPlatDev/FreeDomain)** ⭐ 198,259
-- **[kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)** ⭐ 126,916
+- **[nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap)** ⭐ 366,750
+- **[trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)** ⭐ 242,919
+- **[DigitalPlatDev/FreeDomain](https://github.com/DigitalPlatDev/FreeDomain)** ⭐ 198,399
+- **[kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)** ⭐ 126,874
 
 ### Mobile
 
-- **[flutter/flutter](https://github.com/flutter/flutter)** ⭐ 178,860
-- **[Genymobile/scrcpy](https://github.com/Genymobile/scrcpy)** ⭐ 149,175
-- **[react/react-native](https://github.com/react/react-native)** ⭐ 126,539
-- **[nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)** ⭐ 126,166
-- **[rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)** ⭐ 122,965
+- **[flutter/flutter](https://github.com/flutter/flutter)** ⭐ 178,879
+- **[Genymobile/scrcpy](https://github.com/Genymobile/scrcpy)** ⭐ 149,259
+- **[react/react-native](https://github.com/react/react-native)** ⭐ 126,540
+- **[nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)** ⭐ 126,432
+- **[rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)** ⭐ 123,025
 
 ### Data
 
-- **[Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide)** ⭐ 158,380
+- **[Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide)** ⭐ 158,407
 
 ---
 
@@ -111,4 +111,4 @@ MIT License - 詳細は [LICENSE](LICENSE) をご覧ください
 
 **Made with ❤️ by OSS Community**
 
-🗓 最終更新: 2026-09-09 03:20:53
+🗓 最終更新: 2026-09-10 03:19:46
