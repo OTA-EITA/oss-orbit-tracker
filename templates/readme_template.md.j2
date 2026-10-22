@@ -2,8 +2,8 @@
 
 > 世界中のOSSトレンドを毎日収集・分析・可視化するオープンデータプロジェクト
 
-[![Daily Update](https://github.com/YOUR_USERNAME/oss-orbit-tracker/actions/workflows/daily-update.yml/badge.svg)](https://github.com/YOUR_USERNAME/oss-orbit-tracker/actions/workflows/daily-update.yml)
-[![Quality Check](https://github.com/YOUR_USERNAME/oss-orbit-tracker/actions/workflows/quality-check.yml/badge.svg)](https://github.com/YOUR_USERNAME/oss-orbit-tracker/actions/workflows/quality-check.yml)
+[![Daily Update](https://github.com/OTA-EITA/oss-orbit-tracker/actions/workflows/daily-update.yml/badge.svg)](https://github.com/OTA-EITA/oss-orbit-tracker/actions/workflows/daily-update.yml)
+[![Quality Check](https://github.com/OTA-EITA/oss-orbit-tracker/actions/workflows/quality-check.yml/badge.svg)](https://github.com/OTA-EITA/oss-orbit-tracker/actions/workflows/quality-check.yml)
 
 ## 🎯 プロジェクト概要
 
