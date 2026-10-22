@@ -2,9 +2,9 @@
 
 > 世界中のOSSトレンドを毎日収集・分析・可視化するオープンデータプロジェクト
 
-[![Daily Update](https://github.com/YOUR_USERNAME/oss-orbit-tracker/actions/workflows/daily-update.yml/badge.svg)](https://github.com/YOUR_USERNAME/oss-orbit-tracker/actions/workflows/daily-update.yml)
-[![Weekly Cleanup](https://github.com/YOUR_USERNAME/oss-orbit-tracker/actions/workflows/weekly-cleanup.yml/badge.svg)](https://github.com/YOUR_USERNAME/oss-orbit-tracker/actions/workflows/weekly-cleanup.yml)
-[![Quality Check](https://github.com/YOUR_USERNAME/oss-orbit-tracker/actions/workflows/quality-check.yml/badge.svg)](https://github.com/YOUR_USERNAME/oss-orbit-tracker/actions/workflows/quality-check.yml)
+[![Daily Update](https://github.com/OTA-EITA/oss-orbit-tracker/actions/workflows/daily-update.yml/badge.svg)](https://github.com/OTA-EITA/oss-orbit-tracker/actions/workflows/daily-update.yml)
+[![Weekly Cleanup](https://github.com/OTA-EITA/oss-orbit-tracker/actions/workflows/weekly-cleanup.yml/badge.svg)](https://github.com/OTA-EITA/oss-orbit-tracker/actions/workflows/weekly-cleanup.yml)
+[![Quality Check](https://github.com/OTA-EITA/oss-orbit-tracker/actions/workflows/quality-check.yml/badge.svg)](https://github.com/OTA-EITA/oss-orbit-tracker/actions/workflows/quality-check.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
@@ -35,7 +35,7 @@ GitHub全体の人気OSS・注目プロジェクト・活発リポジトリを**
 
 ```bash
 # リポジトリをクローン
-git clone https://github.com/YOUR_USERNAME/oss-orbit-tracker.git
+git clone https://github.com/OTA-EITA/oss-orbit-tracker.git
 cd oss-orbit-tracker
 
 # 依存関係をインストール
@@ -295,4 +295,4 @@ ai_repos = data['categories'].get('AI/ML', [])
 
 ## ⭐ スター履歴
 
-[![Star History Chart](https://api.star-history.com/svg?repos=YOUR_USERNAME/oss-orbit-tracker&type=Date)](https://star-history.com/#YOUR_USERNAME/oss-orbit-tracker&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=OTA-EITA/oss-orbit-tracker&type=Date)](https://star-history.com/#OTA-EITA/oss-orbit-tracker&Date)
